@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#377DFF"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">AGENTS.md：写给 Codex 的项目说明书</text>
+    <text x="64" y="126" font-size="21" fill="#667085">在任务开始前提供持续有效的规则，让 Codex 知道项目边界与完成标准。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#377DFF">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="0" y="28" width="52" height="3" rx="1.5" fill="#377DFF"/></g>
+  </g>
+  <g id="definition" data-pptx-bounds="64 180 352 382">
+    <rect x="64" y="180" width="352" height="382" rx="22" fill="#14213D"/>
+    <rect x="88" y="208" width="144" height="34" rx="17" fill="#377DFF"/>
+    <text x="160" y="231" text-anchor="middle" font-family="Consolas, monospace" font-size="17" font-weight="700" fill="#FFFFFF">AGENTS.md</text>
+    <text x="88" y="286" font-size="27" font-weight="700" fill="#FFFFFF"><tspan x="88" y="286">不是一次性的提示词，</tspan><tspan x="88" y="326">而是项目内长期有效的</tspan><tspan x="88" y="366" fill="#7EE0CF">协作约定。</tspan></text>
+    <line x1="88" y1="400" x2="392" y2="400" stroke="#344766" stroke-width="2"/>
+    <text x="88" y="438" font-size="17" fill="#B8C7E0"><tspan x="88" y="438">Codex 开始工作前读取，</tspan><tspan x="88" y="468">用于约束后续分析、修改、</tspan><tspan x="88" y="498">验证与汇报。</tspan></text>
+    <text x="88" y="536" font-size="16" font-weight="700" fill="#7EE0CF">一句话：告诉它“在这里怎样工作”。</text>
+  </g>
+  <g id="instruction-chain" data-pptx-bounds="452 180 332 382">
+    <text x="452" y="207" font-size="20" font-weight="700" fill="#14213D">指令发现链</text>
+    <text x="452" y="235" font-size="16" fill="#667085">从通用规则走向当前目录的具体规则</text>
+    <rect x="452" y="260" width="332" height="72" rx="16" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <circle cx="484" cy="296" r="18" fill="#EAF2FF"/><text x="484" y="302" text-anchor="middle" font-size="16" font-weight="700" fill="#245FD1">1</text>
+    <text x="516" y="288" font-size="18" font-weight="700" fill="#14213D">全局规则</text>
+    <text x="516" y="314" font-family="Consolas, monospace" font-size="15" fill="#667085">~/.codex/AGENTS.md</text>
+    <line x1="618" y1="332" x2="618" y2="358" stroke="#377DFF" stroke-width="3" marker-end="url(#arrow-blue)"/>
+    <rect x="452" y="366" width="332" height="72" rx="16" fill="#FFFFFF" stroke="#BFD2FA" stroke-width="2"/>
+    <circle cx="484" cy="402" r="18" fill="#377DFF"/><text x="484" y="408" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="516" y="394" font-size="18" font-weight="700" fill="#14213D">仓库根目录</text>
+    <text x="516" y="420" font-family="Consolas, monospace" font-size="15" fill="#667085">project/AGENTS.md</text>
+    <line x1="618" y1="438" x2="618" y2="464" stroke="#377DFF" stroke-width="3" marker-end="url(#arrow-blue)"/>
+    <rect x="452" y="472" width="332" height="72" rx="16" fill="#EAF8FA" stroke="#BFE8ED"/>
+    <circle cx="484" cy="508" r="18" fill="#20B8CD"/><text x="484" y="514" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="516" y="500" font-size="18" font-weight="700" fill="#14213D">当前工作目录</text>
+    <text x="516" y="526" font-size="15" fill="#667085">更近、更具体的规则后合并</text>
+  </g>
+  <g id="content-guidance" data-pptx-bounds="820 180 396 382">
+    <rect x="820" y="180" width="396" height="382" rx="22" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="846" y="218" font-size="21" font-weight="700" fill="#14213D">适合写什么？</text>
+    <g font-size="17" fill="#1D2939">
+      <circle cx="852" cy="256" r="4" fill="#377DFF"/><text x="868" y="263">项目入口与运行、测试命令</text>
+      <circle cx="852" cy="296" r="4" fill="#377DFF"/><text x="868" y="303">目录职责与允许修改的范围</text>
+      <circle cx="852" cy="336" r="4" fill="#377DFF"/><text x="868" y="343">代码风格、依赖与环境要求</text>
+      <circle cx="852" cy="376" r="4" fill="#377DFF"/><text x="868" y="383">数据、删除、提交等安全边界</text>
+      <circle cx="852" cy="416" r="4" fill="#377DFF"/><text x="868" y="423">验收条件与结果汇报格式</text>
+    </g>
+    <rect x="844" y="454" width="348" height="84" rx="14" fill="#FFF4E5"/>
+    <text x="864" y="482" font-size="16" font-weight="700" fill="#9A5B00">不适合长期写入</text>
+    <text x="864" y="510" font-size="16" fill="#7A4A00">一次性任务、会频繁变化的细节、</text>
+    <text x="864" y="532" font-size="16" fill="#7A4A00">密码或其他敏感信息。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 590 1152 82">
+    <rect x="64" y="590" width="1152" height="54" rx="16" fill="#EAF2FF"/>
+    <text x="88" y="624" font-size="18" fill="#1D2939"><tspan font-weight="700" fill="#245FD1">判断标准：</tspan>规则应当具体、稳定，并且能够被执行或检查。</text>
+    <text x="64" y="670" font-size="14" fill="#667085"><tspan x="64" y="670"><a href="https://learn.chatgpt.com/docs/agent-configuration/agents-md"><tspan fill="#377DFF" text-decoration="underline">OpenAI AGENTS.md 文档</tspan></a><tspan>　·　</tspan><a href="https://jishuzhan.net/article/2053301309797892098"><tspan fill="#377DFF" text-decoration="underline">参考教程第八节</tspan></a></tspan></text>
+    <text x="1216" y="670" text-anchor="end" font-size="14" fill="#98A2B3">06</text>
+  </g>
+</svg>

@@ -1,0 +1,285 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "D:\\必读\\研究汇报\\汇报\\大组会\\汇报内容\\AI使用\\codex_git_seminar_20260921\\exports\\codex_git_seminar_20260921_135117.pptx",
+    "bytes": 1301793
+  },
+  "source": {
+    "svg_slide_count": 16,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "6ab313d0a7ed0be086d3d289077beefaff273d5ed07236e27906ce628baa639f",
+      "file_count": 16,
+      "files": [
+        {
+          "file": "slide-01.svg",
+          "sha256": "c6ad65de21951d3f09ce50c9ddd435f9852fdc7305d6753bbfbbde7a0476892e"
+        },
+        {
+          "file": "slide-02.svg",
+          "sha256": "4b2a695cd759abcafae4a5facb5e3b774b3a83905cb63de99cbdad7f02d25ff9"
+        },
+        {
+          "file": "slide-03.svg",
+          "sha256": "d9551dd9368e1142662a1f456847f58bc1b2d0db4357b6ef9e19844b756a842c"
+        },
+        {
+          "file": "slide-04.svg",
+          "sha256": "65f87be86382fd00048c0ea1c5096f8afa20ef010b7c922f7a3b041624d5c00f"
+        },
+        {
+          "file": "slide-05.svg",
+          "sha256": "688e043520691e1ccdbb672fe963a949b55cca0ac19fe056a8fc3b7a5aa80cd9"
+        },
+        {
+          "file": "slide-06.svg",
+          "sha256": "a3a735da23e63cd04282903ff0372ed912b0d4610084e82e1b6ee4bc7aa17cae"
+        },
+        {
+          "file": "slide-07.svg",
+          "sha256": "3bfd997f39e1666224f86d63666840e98cf65def1c5aa70704c4acd135f01fb5"
+        },
+        {
+          "file": "slide-08.svg",
+          "sha256": "dc889ac584e872a8260891d1390eb00b1259959c74ef5d2f7f06ccc0718453f5"
+        },
+        {
+          "file": "slide-09.svg",
+          "sha256": "418a0c85638281fdac3564f86c1fc0eeeee6457e68e1c0020de2608332f254fb"
+        },
+        {
+          "file": "slide-10.svg",
+          "sha256": "da9fe3f521c369e5c67ab5b375285dee3667c647dddb9ea4611eef6f67a3667c"
+        },
+        {
+          "file": "slide-11.svg",
+          "sha256": "33080cccffd2ee8f396e3b9fc2e4754d4343b2fad2272b72ed167e8b68792f8e"
+        },
+        {
+          "file": "slide-12.svg",
+          "sha256": "6c88fbc8f1f531b50fff3b1f8d25c4aa9f3aacda2ef9bc9f74112723bbfec009"
+        },
+        {
+          "file": "slide-13.svg",
+          "sha256": "b3ed6fea31a0aaafa19b5714dd563858bdeb3cdd963275e338bd30af83990993"
+        },
+        {
+          "file": "slide-14.svg",
+          "sha256": "b38e4d3f218cd0d55e1103ce9ff17e30eeab77b7484d4c2c55691fc10ce3583f"
+        },
+        {
+          "file": "slide-15.svg",
+          "sha256": "4402bfbe3117cc083fcc0f75e6e7c96ee2571c756f72bcf02f5f8979dc7cabce"
+        },
+        {
+          "file": "slide-16.svg",
+          "sha256": "78cdc18f166fa0b9709a5be267c0f470236c4595ffb919255ceed209b3b52227"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 16,
+    "notes": 16,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "codex_git_seminar_20260921\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "6ab313d0a7ed0be086d3d289077beefaff273d5ed07236e27906ce628baa639f",
+      "file_count": 16,
+      "files": [
+        {
+          "file": "slide-01.svg",
+          "sha256": "c6ad65de21951d3f09ce50c9ddd435f9852fdc7305d6753bbfbbde7a0476892e"
+        },
+        {
+          "file": "slide-02.svg",
+          "sha256": "4b2a695cd759abcafae4a5facb5e3b774b3a83905cb63de99cbdad7f02d25ff9"
+        },
+        {
+          "file": "slide-03.svg",
+          "sha256": "d9551dd9368e1142662a1f456847f58bc1b2d0db4357b6ef9e19844b756a842c"
+        },
+        {
+          "file": "slide-04.svg",
+          "sha256": "65f87be86382fd00048c0ea1c5096f8afa20ef010b7c922f7a3b041624d5c00f"
+        },
+        {
+          "file": "slide-05.svg",
+          "sha256": "688e043520691e1ccdbb672fe963a949b55cca0ac19fe056a8fc3b7a5aa80cd9"
+        },
+        {
+          "file": "slide-06.svg",
+          "sha256": "a3a735da23e63cd04282903ff0372ed912b0d4610084e82e1b6ee4bc7aa17cae"
+        },
+        {
+          "file": "slide-07.svg",
+          "sha256": "3bfd997f39e1666224f86d63666840e98cf65def1c5aa70704c4acd135f01fb5"
+        },
+        {
+          "file": "slide-08.svg",
+          "sha256": "dc889ac584e872a8260891d1390eb00b1259959c74ef5d2f7f06ccc0718453f5"
+        },
+        {
+          "file": "slide-09.svg",
+          "sha256": "418a0c85638281fdac3564f86c1fc0eeeee6457e68e1c0020de2608332f254fb"
+        },
+        {
+          "file": "slide-10.svg",
+          "sha256": "da9fe3f521c369e5c67ab5b375285dee3667c647dddb9ea4611eef6f67a3667c"
+        },
+        {
+          "file": "slide-11.svg",
+          "sha256": "33080cccffd2ee8f396e3b9fc2e4754d4343b2fad2272b72ed167e8b68792f8e"
+        },
+        {
+          "file": "slide-12.svg",
+          "sha256": "6c88fbc8f1f531b50fff3b1f8d25c4aa9f3aacda2ef9bc9f74112723bbfec009"
+        },
+        {
+          "file": "slide-13.svg",
+          "sha256": "b3ed6fea31a0aaafa19b5714dd563858bdeb3cdd963275e338bd30af83990993"
+        },
+        {
+          "file": "slide-14.svg",
+          "sha256": "b38e4d3f218cd0d55e1103ce9ff17e30eeab77b7484d4c2c55691fc10ce3583f"
+        },
+        {
+          "file": "slide-15.svg",
+          "sha256": "4402bfbe3117cc083fcc0f75e6e7c96ee2571c756f72bcf02f5f8979dc7cabce"
+        },
+        {
+          "file": "slide-16.svg",
+          "sha256": "78cdc18f166fa0b9709a5be267c0f470236c4595ffb919255ceed209b3b52227"
+        }
+      ]
+    },
+    "summary": {
+      "total": 16,
+      "passed": 11,
+      "warnings": 5,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 5,
+        "issues": [
+          {
+            "file": "slide-01.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): cover-label:fill None -> '#607078'; cover-label:font-size None -> '18'; text[4]:fill '#607078' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "slide-03.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"editor-status\"> x=946.0, y=416.0..448.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "slide-07.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:font-size None -> '14'; text[48]:font-size '14' -> None; text[52]:font-size '14' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "slide-08.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (4 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): invocation:fill None -> '#263238'; text[30]:fill '#263238' -> None; text[31]:fill '#263238' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "slide-13.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (2 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): circle[33]:fill '#263238' -> None; text[35]:fill '#263238' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Consolas, Microsoft YaHei, monospace",
+        "Consolas, monospace",
+        "Microsoft YaHei, Arial, sans-serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 4,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "D:\\必读\\研究汇报\\汇报\\大组会\\汇报内容\\AI使用\\codex_git_seminar_20260921\\backup\\20260921_135117\\svg_output",
+  "conversion_trace_path": null
+}

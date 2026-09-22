@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "filename": "f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+    "original_filename": "f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+    "source_page_url": "https://www.runoob.com/git/git-tutorial.html",
+    "content_type": "image/png",
+    "occurrences": [
+      {
+        "occurrence_index": 1,
+        "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+        "alt_text": "Git 教程"
+      }
+    ],
+    "usage_count": 1
+  },
+  {
+    "index": 2,
+    "filename": "0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+    "original_filename": "0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+    "source_page_url": "https://www.runoob.com/git/git-tutorial.html",
+    "content_type": "image/jpeg",
+    "occurrences": [
+      {
+        "occurrence_index": 2,
+        "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+        "alt_text": ""
+      }
+    ],
+    "usage_count": 1
+  }
+]

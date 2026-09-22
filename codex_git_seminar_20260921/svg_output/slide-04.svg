@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="78" font-size="38" font-weight="700" fill="#263238"><tspan x="64" y="78">科研代码项目的常见目录</tspan><tspan x="64" y="124">规则、代码、测试与结果</tspan></text>
+  <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/></g>
+  <g id="project-tree" data-pptx-bounds="64 182 500 438">
+    <rect x="64" y="182" width="500" height="438" rx="4" fill="#263238"/>
+    <rect x="64" y="182" width="500" height="48" rx="4" fill="#34434C"/>
+    
+    <text x="150" y="212" font-size="15" fill="#CCD6E8">research-project / explorer</text>
+    <g font-family="Consolas, monospace" font-size="18">
+      <text x="92" y="270" fill="#FFFFFF">research-project/</text>
+      <text x="120" y="308" fill="#AFC6C5">├─ AGENTS.md</text>
+      <text x="120" y="344" fill="#FFFFFF">├─ README.md</text>
+      <text x="120" y="380" fill="#FFFFFF">├─ src/</text>
+      <text x="120" y="416" fill="#FFFFFF">├─ tests/</text>
+      <text x="120" y="452" fill="#FFFFFF">├─ configs/</text>
+      <text x="120" y="488" fill="#FFFFFF">├─ data/</text>
+      <text x="120" y="524" fill="#FFFFFF">├─ results/</text>
+      <text x="120" y="560" fill="#FFFFFF">├─ docs/</text>
+      <text x="120" y="596" fill="#A9C9BB">└─ .gitignore</text>
+    </g>
+  </g>
+  <g id="file-responsibilities" data-pptx-bounds="600 182 616 438">
+    <text x="600" y="216" font-size="22" font-weight="700" fill="#263238">一个好项目应快速回答四个问题</text>
+    <g font-size="19" fill="#263238">
+      <rect x="600" y="242" width="616" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+      <rect x="600" y="242" width="8" height="92" rx="4" fill="#456779"/>
+      <text x="628" y="276" font-size="20" font-weight="700">规则是什么？</text><text x="628" y="308"><tspan font-family="Consolas, monospace" fill="#355F70">AGENTS.md</tspan> 写约束，<tspan font-family="Consolas, monospace">README.md</tspan> 写入口。</text>
+      <rect x="600" y="350" width="616" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+      <rect x="600" y="350" width="8" height="92" rx="4" fill="#456779"/>
+      <text x="628" y="384" font-size="20" font-weight="700">代码在哪？怎样验证？</text><text x="628" y="416"><tspan font-family="Consolas, monospace">src/</tspan> 放实现，<tspan font-family="Consolas, monospace">tests/</tspan> 放可重复检查。</text>
+      <rect x="600" y="458" width="616" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+      <rect x="600" y="458" width="8" height="92" rx="4" fill="#648681"/>
+      <text x="628" y="492" font-size="20" font-weight="700">参数、数据与结果怎么管理？</text><text x="628" y="524"><tspan font-family="Consolas, monospace">configs/ data/ results/</tspan> 各司其职。</text>
+    </g>
+    <rect x="600" y="568" width="616" height="52" rx="4" fill="#F1F5F3"/>
+    <text x="620" y="600" font-size="17" fill="#263238"><tspan font-family="Consolas, monospace" font-weight="700" fill="#527A75">.gitignore</tspan>：排除密钥、缓存、大型原始数据和可再生成文件。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 640 1152 32"><text x="64" y="662" font-size="15" fill="#607078">目录不是为了“看起来专业”，而是为了让人和 Codex 都能定位规则、执行与验证。</text><text x="1216" y="662" text-anchor="end" font-size="14" fill="#819096">04</text></g>
+</svg>

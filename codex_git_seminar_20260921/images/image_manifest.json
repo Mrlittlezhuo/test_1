@@ -1,0 +1,128 @@
+[
+  {
+    "index": 1,
+    "filename": "f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+    "original_filename": "f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+    "source_page_url": "https://www.runoob.com/git/git-tutorial.html",
+    "content_type": "image/png",
+    "occurrences": [
+      {
+        "occurrence_index": 1,
+        "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+        "alt_text": "Git 教程"
+      }
+    ],
+    "usage_count": 1,
+    "source_namespace": "Git_教程_菜鸟教程"
+  },
+  {
+    "index": 2,
+    "filename": "0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+    "original_filename": "0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+    "source_page_url": "https://www.runoob.com/git/git-tutorial.html",
+    "content_type": "image/jpeg",
+    "occurrences": [
+      {
+        "occurrence_index": 2,
+        "source_url": "https://www.runoob.com/wp-content/uploads/2015/02/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg",
+        "alt_text": ""
+      }
+    ],
+    "usage_count": 1,
+    "source_namespace": "Git_教程_菜鸟教程"
+  },
+  {
+    "index": 1,
+    "filename": "vscode-codex-extension-marketplace.png",
+    "original_filename": "vscode-codex-extension-marketplace.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-marketplace.png",
+    "source_page_url": "https://codexguide.ai/start/13-ide-vscode",
+    "content_type": "image/png",
+    "occurrences": [
+      {
+        "occurrence_index": 1,
+        "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-marketplace.png",
+        "alt_text": "搜索并安装 Codex 插件"
+      }
+    ],
+    "usage_count": 1,
+    "source_namespace": "在_VS_Code_中使用_Codex_CodexGuide"
+  },
+  {
+    "index": 2,
+    "filename": "vscode-codex-extension-icon.png",
+    "original_filename": "vscode-codex-extension-icon.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-icon.png",
+    "source_page_url": "https://codexguide.ai/start/13-ide-vscode",
+    "content_type": "image/png",
+    "occurrences": [
+      {
+        "occurrence_index": 2,
+        "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-icon.png",
+        "alt_text": "文件右上角的插件图标"
+      }
+    ],
+    "usage_count": 1,
+    "source_namespace": "在_VS_Code_中使用_Codex_CodexGuide"
+  },
+  {
+    "index": 3,
+    "filename": "vscode-codex-chat-panel.png",
+    "original_filename": "vscode-codex-chat-panel.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-chat-panel.png",
+    "source_page_url": "https://codexguide.ai/start/13-ide-vscode",
+    "content_type": "image/png",
+    "occurrences": [
+      {
+        "occurrence_index": 3,
+        "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-chat-panel.png",
+        "alt_text": "展开后的对话窗口"
+      }
+    ],
+    "usage_count": 1,
+    "source_namespace": "在_VS_Code_中使用_Codex_CodexGuide"
+  },
+  {
+    "index": 4,
+    "filename": "vscode-codex-file-reference.png",
+    "original_filename": "vscode-codex-file-reference.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-file-reference.png",
+    "source_page_url": "https://codexguide.ai/start/13-ide-vscode",
+    "content_type": "image/png",
+    "occurrences": [
+      {
+        "occurrence_index": 4,
+        "source_url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-file-reference.png",
+        "alt_text": "使用 @ 指定文件"
+      }
+    ],
+    "usage_count": 1,
+    "source_namespace": "在_VS_Code_中使用_Codex_CodexGuide"
+  }
+]

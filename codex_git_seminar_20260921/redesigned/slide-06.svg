@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">AGENTS.md：项目级工作约定</text>
+    <text x="64" y="126" font-size="20" fill="#607078">Codex 开始任务前读取这些文件，确定本次工作的约束。</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0"/>
+  </g>
+  <g id="scope" data-pptx-bounds="64 192 550 384">
+    <text x="64" y="222" font-size="22" font-weight="700" fill="#263238">文件放在哪里</text>
+    <text x="64" y="260" font-size="17" fill="#607078">规则从通用到具体，沿工作目录逐级生效。</text>
+    <line x1="64" y1="290" x2="614" y2="290" stroke="#D8DEE0"/>
+    <text x="64" y="334" font-size="17" fill="#607078">个人通用约定</text>
+    <text x="260" y="334" font-family="Consolas, monospace" font-size="19" fill="#263238">~/.codex/AGENTS.md</text>
+    <line x1="64" y1="357" x2="614" y2="357" stroke="#D8DEE0"/>
+    <text x="64" y="401" font-size="17" fill="#607078">整个项目的约定</text>
+    <text x="260" y="401" font-family="Consolas, monospace" font-size="19" fill="#263238">project/AGENTS.md</text>
+    <line x1="64" y1="424" x2="614" y2="424" stroke="#D8DEE0"/>
+    <text x="64" y="468" font-size="17" fill="#607078">局部目录的补充</text>
+    <text x="260" y="468" font-family="Consolas, monospace" font-size="19" fill="#263238">project/subdir/AGENTS.md</text>
+    <line x1="64" y1="491" x2="614" y2="491" stroke="#D8DEE0"/>
+    <text x="64" y="540" font-size="17" fill="#607078">进入更深目录时，Codex 会合并适用的规则。</text>
+  </g>
+  <g id="content" data-pptx-bounds="682 192 534 384">
+    <text x="682" y="222" font-size="22" font-weight="700" fill="#263238">写哪些内容</text>
+    <text x="682" y="267" font-size="19" fill="#263238">项目入口和测试命令</text>
+    <text x="682" y="312" font-size="19" fill="#263238">允许修改的文件和目录</text>
+    <text x="682" y="357" font-size="19" fill="#263238">依赖环境、代码约定与验收标准</text>
+    <text x="682" y="402" font-size="19" fill="#263238">原始数据、密钥等保护要求</text>
+    <line x1="682" y1="438" x2="1216" y2="438" stroke="#D8DEE0"/>
+    <text x="682" y="480" font-size="20" font-weight="700" fill="#263238">不写入长期规则</text>
+    <text x="682" y="522" font-size="18" fill="#607078">一次性任务、频繁变化的细节和敏感信息。</text>
+    <text x="682" y="560" font-size="17" fill="#607078">让每条规则具体到能够执行或检查。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 620 1152 64">
+    <line x1="64" y1="620" x2="1216" y2="620" stroke="#D8DEE0"/>
+    <text x="64" y="653" font-size="15" fill="#607078"><tspan x="64" y="653"><a href="https://learn.chatgpt.com/docs/agent-configuration/agents-md"><tspan fill="#355F70" text-decoration="underline">OpenAI AGENTS.md 文档</tspan></a><tspan>　·　</tspan><a href="https://jishuzhan.net/article/2053301309797892098"><tspan fill="#355F70" text-decoration="underline">参考教程第八节</tspan></a></tspan></text>
+    <text x="1216" y="653" text-anchor="end" font-size="14" fill="#819096">06</text>
+  </g>
+</svg>

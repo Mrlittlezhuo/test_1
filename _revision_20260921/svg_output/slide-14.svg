@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-navy" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#14213D"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 116">
+    <text x="64" y="86" font-size="42" font-weight="700" fill="#14213D">科研使用 Git：版本应回答“这次实验为什么不同”</text>
+    <text x="64" y="126" font-size="21" fill="#667085">把研究假设、代码、配置、验证结果与提交历史连在一起。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#98A2B3">CODEX</text><text x="72" y="18" fill="#20B8CD">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="72" y="28" width="26" height="3" rx="1.5" fill="#20B8CD"/></g>
+  </g>
+  <g id="experiment-branches" data-pptx-bounds="64 180 760 432">
+    <text x="64" y="210" font-size="17" font-weight="700" fill="#20B8CD">ONE QUESTION · SMALL BRANCHES · EXPLAINABLE MERGE</text>
+    <line x1="96" y1="430" x2="806" y2="430" stroke="#14213D" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-navy)"/>
+    <line x1="190" y1="430" x2="250" y2="300" stroke="#377DFF" stroke-width="4"/>
+    <line x1="250" y1="300" x2="430" y2="300" stroke="#377DFF" stroke-width="4"/>
+    <line x1="430" y1="300" x2="500" y2="430" stroke="#377DFF" stroke-width="4"/>
+    <line x1="360" y1="430" x2="430" y2="350" stroke="#20B8CD" stroke-width="4"/>
+    <line x1="430" y1="350" x2="610" y2="350" stroke="#20B8CD" stroke-width="4"/>
+    <line x1="610" y1="350" x2="680" y2="430" stroke="#20B8CD" stroke-width="4"/>
+    <line x1="530" y1="430" x2="600" y2="250" stroke="#6C8DFF" stroke-width="4"/>
+    <line x1="600" y1="250" x2="748" y2="250" stroke="#6C8DFF" stroke-width="4"/>
+    <line x1="748" y1="250" x2="790" y2="430" stroke="#6C8DFF" stroke-width="4"/>
+    <g fill="#FFFFFF" stroke-width="3">
+      <circle cx="96" cy="430" r="18" stroke="#14213D"/><circle cx="190" cy="430" r="10" stroke="#14213D"/><circle cx="360" cy="430" r="10" stroke="#14213D"/><circle cx="530" cy="430" r="10" stroke="#14213D"/><circle cx="806" cy="430" r="18" stroke="#20B8CD"/>
+      <circle cx="340" cy="300" r="14" stroke="#377DFF"/><circle cx="520" cy="350" r="14" stroke="#20B8CD"/><circle cx="680" cy="250" r="14" stroke="#6C8DFF"/>
+    </g>
+    <text x="120" y="470" text-anchor="middle" font-size="17" font-weight="700" fill="#14213D">main 基线</text>
+    <text x="340" y="276" text-anchor="middle" font-size="17" font-weight="700" fill="#245FD1">实验 A · config-a</text>
+    <text x="520" y="334" text-anchor="middle" font-size="17" font-weight="700" fill="#168FA0">实验 B · config-b</text>
+    <text x="680" y="226" text-anchor="middle" font-size="17" font-weight="700" fill="#4C68CC">实验 C · config-c</text>
+    <text x="780" y="470" text-anchor="middle" font-size="17" font-weight="700" fill="#168FA0">验证后合并</text>
+    <rect x="64" y="510" width="760" height="102" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="88" y="546" font-size="18" font-weight="700" fill="#14213D">一个提交应同时指向三类证据</text>
+    <text x="88" y="580" font-size="18" fill="#1D2939">代码与配置变化　·　环境与数据获取说明　·　指标摘要或结果索引</text>
+  </g>
+  <g id="track-ignore" data-pptx-bounds="856 180 360 432">
+    <rect x="856" y="180" width="360" height="202" rx="20" fill="#EAF8FA"/>
+    <text x="880" y="220" font-size="22" font-weight="700" fill="#168FA0">应该追踪</text>
+    <text x="880" y="258" font-size="18" fill="#1D2939"><tspan x="880" y="258">• 源代码与评估脚本</tspan><tspan x="880" y="292">• 配置与环境依赖</tspan><tspan x="880" y="326">• 数据获取说明</tspan><tspan x="880" y="360">• 图表生成方法</tspan></text>
+    <rect x="856" y="402" width="360" height="210" rx="20" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="880" y="442" font-size="22" font-weight="700" fill="#14213D">应该忽略或外部管理</text>
+    <text x="880" y="480" font-size="18" fill="#1D2939"><tspan x="880" y="480">• 密钥、缓存与临时文件</tspan><tspan x="880" y="514">• 大型原始数据</tspan><tspan x="880" y="548">• 可由脚本重建的输出</tspan></text>
+    <text x="880" y="588" font-size="16" fill="#667085">结果目录保留 README、指标摘要或索引。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 640 1152 32"><text x="64" y="662" font-size="15" fill="#667085">分支不是越多越好：一个研究假设或修复，对应一个短而清楚的分支。</text><text x="1216" y="662" text-anchor="end" font-size="14" fill="#98A2B3">14</text></g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#20B8CD"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 116">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">日常只需掌握一条安全 Git 循环</text>
+    <text x="64" y="126" font-size="21" fill="#667085">先看状态和差异，再精确暂存；验证通过后提交，最后推送。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#98A2B3">CODEX</text><text x="72" y="18" fill="#20B8CD">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="72" y="28" width="26" height="3" rx="1.5" fill="#20B8CD"/></g>
+  </g>
+  <g id="safe-loop" data-pptx-bounds="64 178 570 380">
+    <line x1="96" y1="222" x2="96" y2="526" stroke="#20B8CD" stroke-width="4" marker-end="url(#arrow-teal)"/>
+    <g font-size="17" fill="#1D2939">
+      <circle cx="96" cy="222" r="18" fill="#20B8CD"/><text x="96" y="228" text-anchor="middle" fill="#FFFFFF" font-weight="700">1</text><text x="130" y="216" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#168FA0">git pull</text><text x="130" y="241" fill="#667085">开始前同步远程更新</text>
+      <circle cx="96" cy="284" r="18" fill="#FFFFFF" stroke="#20B8CD" stroke-width="3"/><text x="96" y="290" text-anchor="middle" fill="#168FA0" font-weight="700">2</text><text x="130" y="278" font-size="19" font-weight="700">修改并测试</text><text x="130" y="303" fill="#667085">完成一个边界清楚的小任务</text>
+      <circle cx="96" cy="346" r="18" fill="#FFFFFF" stroke="#20B8CD" stroke-width="3"/><text x="96" y="352" text-anchor="middle" fill="#168FA0" font-weight="700">3</text><text x="130" y="340" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#168FA0">git status / git diff</text><text x="130" y="365" fill="#667085">确认变更范围与内容</text>
+      <circle cx="96" cy="408" r="18" fill="#FFFFFF" stroke="#20B8CD" stroke-width="3"/><text x="96" y="414" text-anchor="middle" fill="#168FA0" font-weight="700">4</text><text x="130" y="402" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#168FA0">git add &lt;files&gt;</text><text x="130" y="427" fill="#667085">只暂存当前任务文件</text>
+      <circle cx="96" cy="470" r="18" fill="#FFFFFF" stroke="#20B8CD" stroke-width="3"/><text x="96" y="476" text-anchor="middle" fill="#168FA0" font-weight="700">5</text><text x="130" y="464" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#168FA0">git commit -m "说明原因"</text><text x="130" y="489" fill="#667085">让历史回答为什么改</text>
+      <circle cx="96" cy="532" r="18" fill="#14213D"/><text x="96" y="538" text-anchor="middle" fill="#FFFFFF" font-weight="700">6</text><text x="130" y="526" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#14213D">git push</text><text x="130" y="551" fill="#667085">同步到对应远程分支</text>
+    </g>
+  </g>
+  <g id="terminal-example" data-pptx-bounds="666 178 550 380">
+    <rect x="666" y="178" width="550" height="380" rx="18" fill="#14213D"/>
+    <rect x="666" y="178" width="550" height="46" rx="18" fill="#1E2E4D"/>
+    <circle cx="692" cy="201" r="5" fill="#FF6B6B"/><circle cx="710" cy="201" r="5" fill="#FFD166"/><circle cx="728" cy="201" r="5" fill="#20B8CD"/>
+    <text x="754" y="207" font-size="15" fill="#CCD6E8">terminal · experiment-fix</text>
+    <g font-family="Consolas, monospace" font-size="18">
+      <text x="698" y="270" fill="#9FB5D9">$ git status</text>
+      <text x="698" y="306" fill="#FFFFFF">modified: configs/baseline.yaml</text>
+      <text x="698" y="342" fill="#9FB5D9">$ git diff --stat</text>
+      <text x="698" y="378" fill="#FFFFFF">2 files changed, 18 insertions(+)</text>
+      <text x="698" y="414" fill="#9FB5D9">$ git add configs/baseline.yaml src/run.m</text>
+      <text x="698" y="450" fill="#7EE0CF">$ git commit -m "Fix baseline seed handling"</text>
+      <text x="698" y="486" fill="#7EE0CF">[experiment-fix 6f2a1c9] committed</text>
+    </g>
+    <text x="698" y="532" font-size="16" fill="#B8C7E0">一次提交只讲一件事，审查与回退都会更容易。</text>
+  </g>
+  <g id="risk-warning" data-pptx-bounds="64 584 1152 98">
+    <rect x="64" y="584" width="1152" height="68" rx="16" fill="#FFF4E8" stroke="#F6C68A"/>
+    <text x="88" y="626" font-size="18" fill="#8A4B08"><tspan font-weight="700">风险提示：</tspan>未理解影响前，不使用会覆盖历史或丢失修改的强制命令。</text>
+    <text x="1216" y="674" text-anchor="end" font-size="14" fill="#98A2B3">09</text>
+  </g>
+</svg>

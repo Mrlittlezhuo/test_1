@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">AGENTS.md 示例：把科研约定写成可执行规则</text>
+    <text x="64" y="126" font-size="21" fill="#667085">下面是一份最小示例：复制后替换项目入口、验证命令与保护目录即可。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#377DFF">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="0" y="28" width="52" height="3" rx="1.5" fill="#377DFF"/></g>
+  </g>
+  <g id="agents-example" data-pptx-bounds="64 170 704 452">
+    <rect x="64" y="170" width="704" height="452" rx="20" fill="#14213D"/>
+    <rect x="64" y="170" width="704" height="50" rx="20" fill="#1E2E4A"/>
+    <circle cx="94" cy="195" r="6" fill="#FF6B6B"/><circle cx="116" cy="195" r="6" fill="#F5C451"/><circle cx="138" cy="195" r="6" fill="#43C59E"/>
+    <text x="166" y="202" font-family="Consolas, monospace" font-size="16" fill="#B8C7E0">project/AGENTS.md</text>
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="16" fill="#E8EEF8">
+      <text x="92" y="254" font-size="20" font-weight="700" fill="#7EB1FF"># AGENTS.md</text>
+      <text x="92" y="288" font-weight="700" fill="#7EE0CF">## Project context</text>
+      <text x="112" y="316">- MATLAB R2024a；入口：main.m</text>
+      <text x="112" y="344">- 全量测试：tests/run_all.m</text>
+      <text x="92" y="382" font-weight="700" fill="#7EE0CF">## Working agreements</text>
+      <text x="112" y="410">- 修改前先检查 git status</text>
+      <text x="112" y="438">- 只修改当前任务相关文件</text>
+      <text x="112" y="466">- 不修改 data/raw/，不提交密钥</text>
+      <text x="92" y="504" font-weight="700" fill="#7EE0CF">## Validation and delivery</text>
+      <text x="112" y="532">- 完成后运行 tests/run_all.m</text>
+      <text x="112" y="560">- 汇报修改文件、测试结果、风险与回退方式</text>
+    </g>
+    <rect x="92" y="582" width="648" height="24" rx="8" fill="#1E2E4A"/>
+    <text x="108" y="599" font-family="Consolas, monospace" font-size="13" fill="#8FA3C3">保存位置：项目根目录；团队成员与 Codex 共同遵守</text>
+  </g>
+  <g id="writing-principles" data-pptx-bounds="800 170 416 452">
+    <rect x="800" y="170" width="416" height="452" rx="20" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="828" y="210" font-size="22" font-weight="700" fill="#14213D">三条写作原则</text>
+    <g>
+      <rect x="828" y="238" width="360" height="82" rx="16" fill="#EAF2FF"/>
+      <circle cx="866" cy="279" r="22" fill="#377DFF"/><text x="866" y="286" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="904" y="270" font-size="20" font-weight="700" fill="#14213D">具体</text>
+      <text x="904" y="298" font-size="16" fill="#667085">写路径、命令与边界，不写空泛口号</text>
+      <rect x="828" y="336" width="360" height="82" rx="16" fill="#EAF8FA"/>
+      <circle cx="866" cy="377" r="22" fill="#20B8CD"/><text x="866" y="384" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="904" y="368" font-size="20" font-weight="700" fill="#14213D">可执行</text>
+      <text x="904" y="396" font-size="16" fill="#667085">Codex 能据此采取明确动作</text>
+      <rect x="828" y="434" width="360" height="82" rx="16" fill="#F0F3F8"/>
+      <circle cx="866" cy="475" r="22" fill="#14213D"/><text x="866" y="482" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="904" y="466" font-size="20" font-weight="700" fill="#14213D">可验证</text>
+      <text x="904" y="494" font-size="16" fill="#667085">完成标准能通过测试或检查确认</text>
+    </g>
+    <line x1="828" y1="544" x2="1188" y2="544" stroke="#D9E1EC"/>
+    <text x="828" y="574" font-size="16" font-weight="700" fill="#245FD1">先写最常被遗忘、但影响最大的规则。</text>
+    <text x="828" y="600" font-size="15" fill="#667085">规则变化时更新文件，并让 Git 记录原因。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 642 1152 34">
+    <text x="64" y="666" font-size="14" fill="#667085"><tspan x="64" y="666">示例思路参考：<a href="https://jishuzhan.net/article/2053301309797892098"><tspan fill="#377DFF" text-decoration="underline">教程第八节：项目指令配置</tspan></a></tspan></text>
+    <text x="1216" y="666" text-anchor="end" font-size="14" fill="#98A2B3">07</text>
+  </g>
+</svg>

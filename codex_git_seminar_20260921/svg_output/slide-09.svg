@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#648681"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="86" font-size="38" font-weight="700" fill="#263238">Skill 示例：实验结果复核</text>
+    <text x="64" y="126" font-size="21" fill="#607078">适合反复复现实验、核对指标和生成可追溯摘要的科研任务。</text>
+  <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/></g>
+  <g id="skill-example" data-pptx-bounds="64 170 608 452">
+    <rect x="64" y="170" width="608" height="452" rx="4" fill="#263238"/>
+    <rect x="64" y="170" width="608" height="50" rx="4" fill="#34434C"/>
+    
+    <text x="166" y="202" font-family="Consolas, monospace" font-size="16" fill="#C3CDD2">.agents/skills/experiment-audit/SKILL.md</text>
+    <g font-family="Consolas, Microsoft YaHei, monospace" font-size="15" fill="#E8EEF8">
+      <text x="92" y="252" fill="#AEBBC1">---</text>
+      <text x="92" y="280"><tspan fill="#AFC6C5">name:</tspan> experiment-audit</text>
+      <text x="92" y="308"><tspan fill="#AFC6C5">description:</tspan> 当任务涉及实验复跑、指标对比</text>
+      <text x="92" y="332">  或结果复核时使用。</text>
+      <text x="92" y="360" fill="#AEBBC1">---</text>
+      <text x="92" y="396" font-weight="700" fill="#A9C9BB"># Workflow</text>
+      <text x="112" y="426">1. 读取实验配置与数据说明</text>
+      <text x="112" y="454">2. 记录当前 Git 提交号与环境</text>
+      <text x="112" y="482">3. 运行最小复现实验</text>
+      <text x="112" y="510">4. 与基线指标比较并标记异常</text>
+      <text x="112" y="538">5. 生成复核摘要与结果索引</text>
+      <text x="92" y="574" font-weight="700" fill="#FFB86B">禁止：覆盖原始数据；隐藏失败结果。</text>
+    </g>
+  </g>
+  <g id="audit-flow" data-pptx-bounds="704 170 512 452">
+    <rect x="704" y="170" width="512" height="452" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+    <text x="732" y="210" font-size="22" font-weight="700" fill="#263238">执行后应该留下什么？</text>
+    <text x="732" y="240" font-size="16" fill="#607078">每一步都对应一个可检查的证据</text>
+    <line x1="766" y1="282" x2="766" y2="528" stroke="#648681" stroke-width="3" marker-end="url(#arrow-teal)"/>
+    <g>
+      <circle cx="766" cy="282" r="18" fill="#648681"/><text x="766" y="288" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="800" y="278" font-size="18" font-weight="700" fill="#263238">输入可追溯</text><text x="800" y="302" font-size="15" fill="#607078">配置文件、数据版本与入口命令</text>
+      <circle cx="766" cy="346" r="18" fill="#648681"/><text x="766" y="352" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="800" y="342" font-size="18" font-weight="700" fill="#263238">环境可定位</text><text x="800" y="366" font-size="15" fill="#607078">Git 提交号、依赖与运行参数</text>
+      <circle cx="766" cy="410" r="18" fill="#648681"/><text x="766" y="416" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="800" y="406" font-size="18" font-weight="700" fill="#263238">结果可比较</text><text x="800" y="430" font-size="15" fill="#607078">基线、当前指标与允许误差</text>
+      <circle cx="766" cy="474" r="18" fill="#648681"/><text x="766" y="480" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+      <text x="800" y="470" font-size="18" font-weight="700" fill="#263238">异常不被掩盖</text><text x="800" y="494" font-size="15" fill="#607078">失败步骤、偏差与可能原因</text>
+      <circle cx="766" cy="538" r="18" fill="#263238"/><text x="766" y="544" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+      <text x="800" y="534" font-size="18" font-weight="700" fill="#263238">摘要可以交接</text><text x="800" y="558" font-size="15" fill="#607078">结论、证据路径与下一步建议</text>
+    </g>
+    <rect x="732" y="580" width="456" height="26" rx="4" fill="#F1F5F3"/>
+    <text x="960" y="598" text-anchor="middle" font-size="14" font-weight="700" fill="#527A75">同一个 Skill，可在不同实验目录重复使用</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 642 1152 34">
+    <text x="64" y="666" font-size="15" fill="#607078"><tspan font-weight="700" fill="#355F70">调用示例：</tspan><tspan font-family="Consolas, monospace"> $experiment-audit 复核 results/exp_07，并与 baseline.json 对比。</tspan></text>
+    <text x="1216" y="666" text-anchor="end" font-size="14" fill="#819096">09</text>
+  </g>
+</svg>

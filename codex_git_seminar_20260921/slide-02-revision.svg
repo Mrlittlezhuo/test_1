@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="86" font-size="38" font-weight="700" fill="#263238">ChatGPT 与 Codex 的工作方式</text>
+    <text x="64" y="126" font-size="22" fill="#607078">以同一个 MATLAB 扩展卡尔曼滤波任务为例</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/>
+  </g>
+  <g id="chatgpt-column" data-pptx-bounds="64 186 486 390">
+    <text x="64" y="222" font-size="28" font-weight="700" fill="#263238">普通 ChatGPT 对话</text>
+    <text x="64" y="272" font-size="24" fill="#263238">解释原理，给出参考代码</text>
+    <line x1="64" y1="303" x2="550" y2="303" stroke="#D8DEE0" stroke-width="1"/>
+    <text x="64" y="348" font-size="18" fill="#607078">你可以这样问</text>
+    <text x="64" y="394" font-size="22" fill="#263238">“请解释扩展卡尔曼滤波的原理，<tspan x="64" dy="34">并给一段 MATLAB 示例代码。”</tspan></text>
+    <text x="64" y="514" font-size="20" fill="#355F70">得到原理说明和示例代码；<tspan x="64" dy="32">还需要自己放进项目并验证。</tspan></text>
+  </g>
+  <g id="codex-column" data-pptx-bounds="642 186 574 390">
+    <text x="642" y="222" font-size="28" font-weight="700" fill="#263238">Codex</text>
+    <text x="642" y="272" font-size="24" fill="#263238">读取当前项目，修改并验证代码</text>
+    <line x1="642" y1="303" x2="1216" y2="303" stroke="#D8DEE0" stroke-width="1"/>
+    <text x="642" y="348" font-size="18" fill="#607078">你可以这样交代任务</text>
+    <text x="642" y="394" font-size="22" fill="#263238">“请找到定位模块的状态更新函数，<tspan x="642" dy="34">加入扩展卡尔曼滤波，保持接口不变，</tspan><tspan x="642" dy="34">补充测试并说明修改了哪些文件。”</tspan></text>
+    <text x="642" y="514" font-size="20" fill="#355F70">得到真实文件改动、测试结果<tspan x="642" dy="32">和可供审查的 Git 差异。</tspan></text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 612 1152 57">
+    <line x1="64" y1="612" x2="1216" y2="612" stroke="#D8DEE0" stroke-width="1"/>
+    <text x="64" y="649" font-size="18" fill="#607078">Codex 可以在授权项目内执行任务；最终改动仍需人工检查。</text>
+    <text x="1216" y="651" text-anchor="end" font-size="14" fill="#819096">02</text>
+  </g>
+</svg>

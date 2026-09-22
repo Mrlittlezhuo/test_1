@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">在 VS Code 中使用 Codex</text>
+    <text x="64" y="126" font-size="20" fill="#607078">一次任务按安装、提供上下文、检查结果三个环节完成。</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0"/>
+  </g>
+  <g id="setup" data-pptx-bounds="64 192 350 410">
+    <text x="64" y="222" font-size="22" font-weight="700" fill="#263238">01　安装并登录</text>
+    <line x1="64" y1="246" x2="414" y2="246" stroke="#D8DEE0"/>
+    <image href="../images/vscode-codex-extension-marketplace.png" x="64" y="266" width="350" height="240" preserveAspectRatio="xMidYMid meet"/>
+    <text x="64" y="550" font-size="18" fill="#263238"><tspan x="64" y="550">在扩展市场安装或启用 Codex，</tspan><tspan x="64" y="581">登录后打开实际项目文件夹。</tspan></text>
+  </g>
+  <g id="task" data-pptx-bounds="450 192 350 410">
+    <text x="450" y="222" font-size="22" font-weight="700" fill="#263238">02　说明任务</text>
+    <line x1="450" y1="246" x2="800" y2="246" stroke="#D8DEE0"/>
+    <image href="../images/vscode-codex-chat-panel.png" x="450" y="266" width="350" height="240" preserveAspectRatio="xMidYMid meet"/>
+    <text x="450" y="550" font-size="18" fill="#263238"><tspan x="450" y="550">在侧边栏交代目标和修改范围，</tspan><tspan x="450" y="581">同时写明完成标准。</tspan></text>
+  </g>
+  <g id="review" data-pptx-bounds="836 192 380 410">
+    <text x="836" y="222" font-size="22" font-weight="700" fill="#263238">03　补充上下文并审查</text>
+    <line x1="836" y1="246" x2="1216" y2="246" stroke="#D8DEE0"/>
+    <image href="../images/vscode-codex-file-reference.png" x="836" y="266" width="380" height="240" preserveAspectRatio="xMidYMid meet"/>
+    <text x="836" y="550" font-size="18" fill="#263238"><tspan x="836" y="550">引用相关文件、选区或报错，</tspan><tspan x="836" y="581">结束后检查 diff 与测试结果。</tspan></text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 620 1152 64">
+    <line x1="64" y1="620" x2="1216" y2="620" stroke="#D8DEE0"/>
+    <text x="64" y="653" font-size="15" fill="#607078"><tspan x="64" y="653"><a href="https://learn.chatgpt.com/docs/codex/ide"><tspan fill="#355F70" text-decoration="underline">OpenAI Codex IDE 扩展文档</tspan></a><tspan>　·　</tspan><a href="https://codexguide.ai/start/13-ide-vscode.html"><tspan fill="#355F70" text-decoration="underline">VS Code 使用参考教程</tspan></a></tspan></text>
+    <text x="1216" y="653" text-anchor="end" font-size="14" fill="#819096">10</text>
+  </g>
+</svg>

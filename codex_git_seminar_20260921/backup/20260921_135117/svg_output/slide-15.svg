@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">Codex 与 Git 的协作流程</text>
+    <text x="64" y="126" font-size="20" fill="#607078">每一步明确负责者，也留下可检查的记录。</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0"/>
+  </g>
+  <g id="column-headings" data-pptx-bounds="64 190 1152 60">
+    <text x="64" y="220" font-size="17" font-weight="700" fill="#607078">环节</text>
+    <text x="450" y="220" font-size="17" font-weight="700" fill="#607078">主体或工具</text>
+    <text x="680" y="220" font-size="17" font-weight="700" fill="#607078">应留下的记录</text>
+    <line x1="64" y1="244" x2="1216" y2="244" stroke="#263238" stroke-width="2"/>
+  </g>
+  <g id="workflow-table" data-pptx-bounds="64 252 1152 356" font-size="19" fill="#263238">
+    <text x="64" y="290">01　定义任务</text><text x="450" y="290">研究者</text><text x="680" y="290">目标、相关文件、验收条件</text>
+    <line x1="64" y1="308" x2="1216" y2="308" stroke="#D8DEE0"/>
+    <text x="64" y="350">02　记录基线</text><text x="450" y="350">Git</text><text x="680" y="350">当前分支、提交号、工作区状态</text>
+    <line x1="64" y1="368" x2="1216" y2="368" stroke="#D8DEE0"/>
+    <text x="64" y="410">03　执行与验证</text><text x="450" y="410">Codex</text><text x="680" y="410">修改文件、运行或测试结果</text>
+    <line x1="64" y1="428" x2="1216" y2="428" stroke="#D8DEE0"/>
+    <text x="64" y="470">04　审查变化</text><text x="450" y="470">研究者</text><text x="680" y="470">diff、指标变化和潜在风险</text>
+    <line x1="64" y1="488" x2="1216" y2="488" stroke="#D8DEE0"/>
+    <text x="64" y="530">05　提交与同步</text><text x="450" y="530">Git</text><text x="680" y="530">当前任务的提交和远程记录</text>
+    <line x1="64" y1="548" x2="1216" y2="548" stroke="#D8DEE0"/>
+    <text x="64" y="590">06　关联实验</text><text x="450" y="590">研究者</text><text x="680" y="590">提交号、配置和结果索引</text>
+    <line x1="64" y1="608" x2="1216" y2="608" stroke="#D8DEE0"/>
+  </g>
+  <g id="footer" data-pptx-bounds="64 634 1152 40">
+    <text x="64" y="658" font-size="16" fill="#607078">人工审查决定哪些变化可以进入正式实验记录。</text>
+    <text x="1216" y="658" text-anchor="end" font-size="14" fill="#819096">15</text>
+  </g>
+</svg>

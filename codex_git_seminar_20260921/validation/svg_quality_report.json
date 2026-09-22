@@ -1,0 +1,1426 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "D:\\必读\\研究汇报\\汇报\\大组会\\汇报内容\\AI使用\\codex_git_seminar_20260921",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "5b6e969d60607ba4325ed041b5f04a430518b5e5f69c0357641f1614f5b2bc50",
+    "file_count": 16,
+    "files": [
+      {
+        "file": "slide-01.svg",
+        "sha256": "c6ad65de21951d3f09ce50c9ddd435f9852fdc7305d6753bbfbbde7a0476892e"
+      },
+      {
+        "file": "slide-02.svg",
+        "sha256": "738d9226e5792914d60a0913ac5d6f6eb97eb44e8182c1a4c8881815d41d7f63"
+      },
+      {
+        "file": "slide-03.svg",
+        "sha256": "d9551dd9368e1142662a1f456847f58bc1b2d0db4357b6ef9e19844b756a842c"
+      },
+      {
+        "file": "slide-04.svg",
+        "sha256": "65f87be86382fd00048c0ea1c5096f8afa20ef010b7c922f7a3b041624d5c00f"
+      },
+      {
+        "file": "slide-05.svg",
+        "sha256": "688e043520691e1ccdbb672fe963a949b55cca0ac19fe056a8fc3b7a5aa80cd9"
+      },
+      {
+        "file": "slide-06.svg",
+        "sha256": "a3a735da23e63cd04282903ff0372ed912b0d4610084e82e1b6ee4bc7aa17cae"
+      },
+      {
+        "file": "slide-07.svg",
+        "sha256": "3bfd997f39e1666224f86d63666840e98cf65def1c5aa70704c4acd135f01fb5"
+      },
+      {
+        "file": "slide-08.svg",
+        "sha256": "dc889ac584e872a8260891d1390eb00b1259959c74ef5d2f7f06ccc0718453f5"
+      },
+      {
+        "file": "slide-09.svg",
+        "sha256": "418a0c85638281fdac3564f86c1fc0eeeee6457e68e1c0020de2608332f254fb"
+      },
+      {
+        "file": "slide-10.svg",
+        "sha256": "da9fe3f521c369e5c67ab5b375285dee3667c647dddb9ea4611eef6f67a3667c"
+      },
+      {
+        "file": "slide-11.svg",
+        "sha256": "33080cccffd2ee8f396e3b9fc2e4754d4343b2fad2272b72ed167e8b68792f8e"
+      },
+      {
+        "file": "slide-12.svg",
+        "sha256": "6c88fbc8f1f531b50fff3b1f8d25c4aa9f3aacda2ef9bc9f74112723bbfec009"
+      },
+      {
+        "file": "slide-13.svg",
+        "sha256": "b3ed6fea31a0aaafa19b5714dd563858bdeb3cdd963275e338bd30af83990993"
+      },
+      {
+        "file": "slide-14.svg",
+        "sha256": "b38e4d3f218cd0d55e1103ce9ff17e30eeab77b7484d4c2c55691fc10ce3583f"
+      },
+      {
+        "file": "slide-15.svg",
+        "sha256": "449da3bf0ae2046e4602ad9e7ab07905f75320c2d5fe9ba400f93af14f34d9b2"
+      },
+      {
+        "file": "slide-16.svg",
+        "sha256": "b946caf5bd5745e333475c7a55d91a68c9a4332fa047eddc8cccbb20afb0fb8b"
+      }
+    ]
+  },
+  "summary": {
+    "total": 16,
+    "passed": 11,
+    "warnings": 5,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 5,
+      "issues": [
+        {
+          "file": "slide-01.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): cover-label:fill None -> '#607078'; cover-label:font-size None -> '18'; text[4]:fill '#607078' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "slide-03.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"editor-status\"> x=946.0, y=416.0..448.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "slide-07.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:font-size None -> '14'; text[48]:font-size '14' -> None; text[52]:font-size '14' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "slide-08.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (4 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): invocation:fill None -> '#263238'; text[30]:fill '#263238' -> None; text[31]:fill '#263238' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "slide-13.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (2 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): circle[33]:fill '#263238' -> None; text[35]:fill '#263238' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#34434C": [
+        "slide-03.svg",
+        "slide-04.svg",
+        "slide-07.svg",
+        "slide-09.svg",
+        "slide-13.svg"
+      ],
+      "#355F70": [
+        "slide-02.svg",
+        "slide-03.svg",
+        "slide-04.svg",
+        "slide-05.svg",
+        "slide-06.svg",
+        "slide-07.svg",
+        "slide-08.svg",
+        "slide-09.svg",
+        "slide-10.svg",
+        "slide-12.svg",
+        "slide-14.svg",
+        "slide-16.svg"
+      ],
+      "#465861": [
+        "slide-01.svg"
+      ],
+      "#4C68CC": [
+        "slide-14.svg"
+      ],
+      "#527A75": [
+        "slide-04.svg",
+        "slide-09.svg",
+        "slide-11.svg",
+        "slide-12.svg",
+        "slide-13.svg",
+        "slide-14.svg"
+      ],
+      "#53626B": [
+        "slide-03.svg"
+      ],
+      "#6C8DFF": [
+        "slide-14.svg"
+      ],
+      "#819096": [
+        "slide-02.svg",
+        "slide-03.svg",
+        "slide-04.svg",
+        "slide-05.svg",
+        "slide-06.svg",
+        "slide-07.svg",
+        "slide-08.svg",
+        "slide-09.svg",
+        "slide-10.svg",
+        "slide-11.svg",
+        "slide-12.svg",
+        "slide-13.svg",
+        "slide-14.svg",
+        "slide-15.svg",
+        "slide-16.svg"
+      ],
+      "#8A4B08": [
+        "slide-13.svg"
+      ],
+      "#9FB5D9": [
+        "slide-03.svg",
+        "slide-13.svg"
+      ],
+      "#A9C9BB": [
+        "slide-03.svg",
+        "slide-04.svg",
+        "slide-07.svg",
+        "slide-09.svg",
+        "slide-12.svg",
+        "slide-13.svg"
+      ],
+      "#AEBBC1": [
+        "slide-07.svg",
+        "slide-09.svg"
+      ],
+      "#AFC6C5": [
+        "slide-04.svg",
+        "slide-07.svg",
+        "slide-09.svg"
+      ],
+      "#C3CDD2": [
+        "slide-07.svg",
+        "slide-09.svg",
+        "slide-12.svg",
+        "slide-13.svg"
+      ],
+      "#CCD6E8": [
+        "slide-03.svg",
+        "slide-04.svg",
+        "slide-13.svg"
+      ],
+      "#D7DFE0": [
+        "slide-12.svg"
+      ],
+      "#E8EEF8": [
+        "slide-07.svg",
+        "slide-09.svg"
+      ],
+      "#F0F3F8": [
+        "slide-07.svg"
+      ],
+      "#F1F5F3": [
+        "slide-04.svg",
+        "slide-07.svg",
+        "slide-09.svg",
+        "slide-11.svg",
+        "slide-14.svg"
+      ],
+      "#F2F5F5": [
+        "slide-03.svg",
+        "slide-07.svg"
+      ],
+      "#FFB86B": [
+        "slide-09.svg"
+      ]
+    },
+    "fonts": {
+      "Consolas, Microsoft YaHei, monospace": [
+        "slide-07.svg",
+        "slide-09.svg"
+      ]
+    },
+    "sizes": {
+      "27": [
+        "slide-05.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 16,
+    "totals": {
+      "text_elements": 331,
+      "image_placements": 4,
+      "icons": 0,
+      "svg_geometry_elements": 151,
+      "preset_shapes": 0,
+      "page_frame_elements": 16,
+      "marker_uses": 9,
+      "inline_emphasis_runs": 26,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 2,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 11,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 0,
+    "geometry_elements": {
+      "circle": 29,
+      "ellipse": 0,
+      "line": 69,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 53
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.099,
+      0.2173
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "slide-01.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-01.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): cover-label:fill None -> '#607078'; cover-label:font-size None -> '18'; text[4]:fill '#607078' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#465861"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "c6ad65de21951d3f09ce50c9ddd435f9852fdc7305d6753bbfbbde7a0476892e"
+    },
+    {
+      "file": "slide-02.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-02.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 5,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#819096"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "738d9226e5792914d60a0913ac5d6f6eb97eb44e8182c1a4c8881815d41d7f63"
+    },
+    {
+      "file": "slide-03.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-03.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"editor-status\"> x=946.0, y=416.0..448.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 35,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 7,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 35,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#34434C",
+            "#355F70",
+            "#53626B",
+            "#819096",
+            "#9FB5D9",
+            "#A9C9BB",
+            "#CCD6E8",
+            "#F2F5F5"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d9551dd9368e1142662a1f456847f58bc1b2d0db4357b6ef9e19844b756a842c"
+    },
+    {
+      "file": "slide-04.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-04.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 8,
+        "contextual_values": {
+          "colors": [
+            "#34434C",
+            "#355F70",
+            "#527A75",
+            "#819096",
+            "#A9C9BB",
+            "#AFC6C5",
+            "#CCD6E8",
+            "#F1F5F3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "65f87be86382fd00048c0ea1c5096f8afa20ef010b7c922f7a3b041624d5c00f"
+    },
+    {
+      "file": "slide-05.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-05.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 4,
+        "hyperlinks": 2,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#819096"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "27": 2
+        }
+      },
+      "passed": true,
+      "source_sha256": "688e043520691e1ccdbb672fe963a949b55cca0ac19fe056a8fc3b7a5aa80cd9"
+    },
+    {
+      "file": "slide-06.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-06.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 4,
+        "hyperlinks": 2,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#819096"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "a3a735da23e63cd04282903ff0372ed912b0d4610084e82e1b6ee4bc7aa17cae"
+    },
+    {
+      "file": "slide-07.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-07.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:font-size None -> '14'; text[48]:font-size '14' -> None; text[52]:font-size '14' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 2,
+        "hyperlinks": 1,
+        "contextual_values": {
+          "colors": [
+            "#34434C",
+            "#355F70",
+            "#819096",
+            "#A9C9BB",
+            "#AEBBC1",
+            "#AFC6C5",
+            "#C3CDD2",
+            "#E8EEF8",
+            "#F0F3F8",
+            "#F1F5F3",
+            "#F2F5F5"
+          ],
+          "font_families": [
+            "Consolas, Microsoft YaHei, monospace"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3bfd997f39e1666224f86d63666840e98cf65def1c5aa70704c4acd135f01fb5"
+    },
+    {
+      "file": "slide-08.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-08.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (4 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): invocation:fill None -> '#263238'; text[30]:fill '#263238' -> None; text[31]:fill '#263238' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 7,
+        "hyperlinks": 2,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#819096"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "dc889ac584e872a8260891d1390eb00b1259959c74ef5d2f7f06ccc0718453f5"
+    },
+    {
+      "file": "slide-09.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-09.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 35,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 5,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 35,
+        "tspan_elements": 4,
+        "contextual_values": {
+          "colors": [
+            "#34434C",
+            "#355F70",
+            "#527A75",
+            "#819096",
+            "#A9C9BB",
+            "#AEBBC1",
+            "#AFC6C5",
+            "#C3CDD2",
+            "#E8EEF8",
+            "#F1F5F3",
+            "#FFB86B"
+          ],
+          "font_families": [
+            "Consolas, Microsoft YaHei, monospace"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "418a0c85638281fdac3564f86c1fc0eeeee6457e68e1c0020de2608332f254fb"
+    },
+    {
+      "file": "slide-10.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-10.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 3,
+            "files": [
+              "vscode-codex-chat-panel.png",
+              "vscode-codex-extension-marketplace.png",
+              "vscode-codex-file-reference.png"
+            ],
+            "max_frame_share": 0.099
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 10,
+        "hyperlinks": 2,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#819096"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "da9fe3f521c369e5c67ab5b375285dee3667c647dddb9ea4611eef6f67a3667c"
+    },
+    {
+      "file": "slide-11.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-11.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg"
+            ],
+            "max_frame_share": 0.2173
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 6,
+        "hyperlinks": 1,
+        "contextual_values": {
+          "colors": [
+            "#527A75",
+            "#819096",
+            "#F1F5F3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "33080cccffd2ee8f396e3b9fc2e4754d4343b2fad2272b72ed167e8b68792f8e"
+    },
+    {
+      "file": "slide-12.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-12.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 4
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 10,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#527A75",
+            "#819096",
+            "#A9C9BB",
+            "#C3CDD2",
+            "#D7DFE0"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "6c88fbc8f1f531b50fff3b1f8d25c4aa9f3aacda2ef9bc9f74112723bbfec009"
+    },
+    {
+      "file": "slide-13.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-13.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (2 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): circle[33]:fill '#263238' -> None; text[35]:fill '#263238' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 31,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 31,
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#34434C",
+            "#527A75",
+            "#819096",
+            "#8A4B08",
+            "#9FB5D9",
+            "#A9C9BB",
+            "#C3CDD2",
+            "#CCD6E8"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "b3ed6fea31a0aaafa19b5714dd563858bdeb3cdd963275e338bd30af83990993"
+    },
+    {
+      "file": "slide-14.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-14.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 8,
+              "ellipse": 0,
+              "line": 11,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 7,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#4C68CC",
+            "#527A75",
+            "#6C8DFF",
+            "#819096",
+            "#F1F5F3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "b38e4d3f218cd0d55e1103ce9ff17e30eeab77b7484d4c2c55691fc10ce3583f"
+    },
+    {
+      "file": "slide-15.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-15.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#819096"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "449da3bf0ae2046e4602ad9e7ab07905f75320c2d5fe9ba400f93af14f34d9b2"
+    },
+    {
+      "file": "slide-16.svg",
+      "path": "codex_git_seminar_20260921\\svg_output\\slide-16.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 4,
+        "contextual_values": {
+          "colors": [
+            "#355F70",
+            "#819096"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "b946caf5bd5745e333475c7a55d91a68c9a4332fa047eddc8cccbb20afb0fb8b"
+    }
+  ]
+}

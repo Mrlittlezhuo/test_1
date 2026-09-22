@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 116">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">在 VS Code 中使用 Codex：安装、给上下文、审查变更</text>
+    <text x="64" y="126" font-size="21" fill="#667085">第一次任务只走一条最短路径：打开项目 → 引用上下文 → 明确完成标准 → 审查 diff。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#377DFF">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="0" y="28" width="52" height="3" rx="1.5" fill="#377DFF"/></g>
+  </g>
+  <g id="install-step" data-pptx-bounds="64 176 364 420">
+    <rect x="64" y="176" width="364" height="420" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <circle cx="96" cy="208" r="18" fill="#377DFF"/><text x="96" y="215" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="124" y="216" font-size="22" font-weight="700" fill="#14213D">安装并登录</text>
+    <rect x="80" y="246" width="332" height="170" rx="12" fill="#F6F8FB" stroke="#D9E1EC"/>
+    <image href="../images/vscode-codex-extension-marketplace.png" x="80" y="246" width="332" height="170" preserveAspectRatio="xMidYMid meet"/>
+    <text x="84" y="458" font-size="18" fill="#1D2939"><tspan x="84" y="458">在扩展市场安装或启用 Codex，</tspan><tspan x="84" y="488">完成账号登录。</tspan></text>
+    <rect x="84" y="520" width="312" height="48" rx="12" fill="#EAF2FF"/>
+    <text x="240" y="551" text-anchor="middle" font-size="16" font-weight="700" fill="#245FD1">检查点：扩展可用，项目已打开</text>
+  </g>
+  <g id="chat-step" data-pptx-bounds="452 176 424 420">
+    <rect x="452" y="176" width="424" height="420" rx="18" fill="#FFFFFF" stroke="#BFD2FA" stroke-width="2"/>
+    <circle cx="484" cy="208" r="18" fill="#377DFF"/><text x="484" y="215" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="512" y="216" font-size="22" font-weight="700" fill="#14213D">打开侧边栏并描述任务</text>
+    <rect x="468" y="240" width="392" height="320" rx="12" fill="#14213D"/>
+    <image href="../images/vscode-codex-chat-panel.png" x="468" y="240" width="392" height="320" preserveAspectRatio="xMidYMid meet"/>
+    <text x="664" y="584" text-anchor="middle" font-size="16" font-weight="700" fill="#245FD1">目标 + 范围 + 完成标准</text>
+  </g>
+  <g id="context-step" data-pptx-bounds="900 176 316 420">
+    <rect x="900" y="176" width="316" height="420" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <circle cx="932" cy="208" r="18" fill="#20B8CD"/><text x="932" y="215" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="960" y="216" font-size="22" font-weight="700" fill="#14213D">引用文件与选区</text>
+    <rect x="916" y="246" width="284" height="252" rx="12" fill="#F6F8FB" stroke="#D9E1EC"/>
+    <image href="../images/vscode-codex-file-reference.png" x="916" y="246" width="284" height="252" preserveAspectRatio="xMidYMid meet"/>
+    <text x="920" y="530" font-size="17" fill="#1D2939"><tspan x="920" y="530">把相关文件、选区和报错</tspan><tspan x="920" y="558">带入提示；最后审查摘要、</tspan><tspan x="920" y="586">diff 与测试结果。</tspan></text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 620 1152 52">
+    <text x="64" y="646" font-size="15" fill="#667085"><tspan x="64" y="646"><a href="https://learn.chatgpt.com/docs/codex/ide"><tspan fill="#377DFF" text-decoration="underline">OpenAI Codex IDE 扩展文档</tspan></a><tspan>　·　</tspan><a href="https://codexguide.ai/start/13-ide-vscode.html"><tspan fill="#377DFF" text-decoration="underline">VS Code 使用参考教程</tspan></a></tspan></text>
+    <text x="1216" y="646" text-anchor="end" font-size="14" fill="#98A2B3">06</text>
+  </g>
+</svg>

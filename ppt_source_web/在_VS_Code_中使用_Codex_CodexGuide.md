@@ -1,0 +1,67 @@
+<!--
+  Source: https://codexguide.ai/start/13-ide-vscode.html
+  Crawled: 2026-09-20T17:06:30.034342
+  Published: 2026-06-29
+  Author: canghe
+-->
+
+# 在 VS Code 中使用 Codex | CodexGuide
+
+> 在 VS Code 中使用 Codex 的教程，介绍插件入口、文件上下文、局部修改、解释代码和编辑器内协作方式。
+
+# 在 VS Code 中使用 Codex
+
+[canghe](https://github.com/freestylefly)2026/8/10约 642 字大约 2 分钟
+
+---
+
+最后核对
+
+官方资料最后核对日期：2026-06-29。本文以 VS Code 为例演示 Codex IDE 入口，插件安装、登录、界面名称和可用功能请以当前编辑器插件与 [Codex 文档入口](https://developers.openai.com/codex/) 为准；CLI 基础能力可参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)。
+
+# [在 VS Code 中使用 Codex](#在-vs-code-中使用-codex)
+
+本章介绍如何在 VS Code 代码编辑器中安装 Codex 插件，并通过插件完成开发任务。相比桌面 App，在 VS Code 中使用 Codex 可以更直接地看到文件目录结构和修改前后的对比，适合习惯在编辑器里工作的开发者。
+
+## [安装 Codex 插件](#安装-codex-插件)
+
+打开 VS Code，点击左侧边栏的「扩展」图标，在搜索框中输入 **Codex**，选择第一个结果，点击「安装」即可。
+
+提示
+
+这里安装的是 OpenAI 官方发布的 ChatGPT 插件，其中集成了 Codex 的对话与代码辅助能力。
+
+![搜索并安装 Codex 插件](在_VS_Code_中使用_Codex_CodexGuide_files\vscode-codex-extension-marketplace.png)
+
+## [打开插件对话窗口](#打开插件对话窗口)
+
+安装完成后，在 VS Code 中打开任意一个项目文件，右上角会出现 ChatGPT 的图标。点击该图标，右侧边栏就会展开 Codex 的对话窗口。
+
+![文件右上角的插件图标](在_VS_Code_中使用_Codex_CodexGuide_files\vscode-codex-extension-icon.png)
+
+![展开后的对话窗口](在_VS_Code_中使用_Codex_CodexGuide_files\vscode-codex-chat-panel.png)
+
+## [开始使用](#开始使用)
+
+对话窗口打开后，直接输入需求，Codex 就会开始辅助完成开发任务，用法与 Codex 桌面 App 基本一致。
+
+**使用 `@` 指定文件：**
+
+在对话框中输入 `@` 后选择具体文件，Codex 会直接定位到该文件进行分析或修改，比让它全局搜索更快、更准确。建议在任务目标明确时优先使用 `@` 指定相关文件。
+
+![使用 @ 指定文件](在_VS_Code_中使用_Codex_CodexGuide_files\vscode-codex-file-reference.png)
+
+## [App 与 VS Code 插件怎么选](#app-与-vs-code-插件怎么选)
+
+|  | Codex 桌面 App | VS Code 插件 |
+| --- | --- | --- |
+| 适合场景 | 多任务管理、Skills、Automations | 边写代码边调用，贴近编辑器工作流 |
+| 文件结构可见性 | 需要切换界面 | 直接在编辑器里查看 |
+| 修改前后对比 | 独立查看 | 可结合编辑器 diff 查看 |
+| 推荐用户 | 需要并行任务或插件协作 | 日常编码开发者 |
+
+根据自己的使用习惯选择即可，两者可以配合使用。
+
+## [下一步](#下一步)
+
+下一步：[Codex Cloud：使用云端模式](https://codexguide.ai/start/14-cloud.html)。

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="cover-label" data-pptx-bounds="88 72 1104 42">
+    <text x="88" y="102" font-size="18" fill="#607078">课题组方法交流</text>
+    <text x="1192" y="102" text-anchor="end" font-size="18" fill="#607078">2026.09</text>
+  </g>
+  <g id="cover-title" data-pptx-bounds="88 220 1104 225">
+    <text x="88" y="300" font-size="56" font-weight="700" fill="#263238">Codex、VS Code 与 Git</text>
+    <text x="88" y="382" font-size="52" font-weight="700" fill="#263238">在科研项目中的使用</text>
+    <line x1="88" y1="428" x2="245" y2="428" stroke="#456779" stroke-width="4"/>
+  </g>
+  <g id="cover-description" data-pptx-bounds="88 484 1104 132">
+    <text x="88" y="526" font-size="25" fill="#465861">项目约定、任务执行与版本记录</text>
+    <text x="88" y="596" font-size="19" fill="#607078">结合科研代码的日常维护与实验复现</text>
+  </g>
+</svg>

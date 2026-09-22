@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">Codex 在算法研究中能做什么</text>
+    <text x="64" y="126" font-size="20" fill="#607078">从论文方法到项目实验，协助完成可检查的工作。</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/>
+  </g>
+  <g id="research-actions" data-pptx-bounds="64 190 1152 382" fill="#263238">
+    <g id="read-paper">
+      <text x="64" y="251" font-size="32" fill="#607078">01</text>
+      <text x="154" y="251" font-size="26" font-weight="700">论文与假设</text>
+      <text x="420" y="251" font-size="22">梳理观测模型、变量和前提，核对项目能否提供所需输入。</text>
+      <line x1="64" y1="282" x2="1216" y2="282" stroke="#D8DEE0" stroke-width="1"/>
+    </g>
+    <g id="reproduce-method">
+      <text x="64" y="344" font-size="32" fill="#607078">02</text>
+      <text x="154" y="344" font-size="26" font-weight="700">独立复现</text>
+      <text x="420" y="344" font-size="22">按论文条件搭建最小实验，解释与原文结果的差异。</text>
+      <line x1="64" y1="375" x2="1216" y2="375" stroke="#D8DEE0" stroke-width="1"/>
+    </g>
+    <g id="integrate-method">
+      <text x="64" y="437" font-size="32" fill="#607078">03</text>
+      <text x="154" y="437" font-size="26" font-weight="700">接入与改造</text>
+      <text x="420" y="437" font-size="22">定位现有模块接口，试做改造并与基线同条件比较。</text>
+      <line x1="64" y1="468" x2="1216" y2="468" stroke="#D8DEE0" stroke-width="1"/>
+    </g>
+    <g id="record-evidence">
+      <text x="64" y="530" font-size="32" fill="#607078">04</text>
+      <text x="154" y="530" font-size="26" font-weight="700">整理证据</text>
+      <text x="420" y="530" font-size="22">整理代码、配置、运行结果与失败原因，留下可复查记录。</text>
+      <line x1="64" y1="561" x2="1216" y2="561" stroke="#D8DEE0" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="footer" data-pptx-bounds="64 613 1152 58">
+    <text x="64" y="652" font-size="18" fill="#607078">是否采用一种方法，仍由研究者根据假设与最终指标判断。</text>
+    <text x="1216" y="652" text-anchor="end" font-size="14" fill="#819096">15</text>
+  </g>
+</svg>

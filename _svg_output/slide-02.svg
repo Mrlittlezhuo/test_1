@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">ChatGPT 更像思考伙伴，Codex 更像项目执行者</text>
+    <text x="64" y="126" font-size="22" fill="#667085">不要按“谁更聪明”选择，而要按工作中心与交付物选择。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700">
+      <text x="0" y="18" fill="#377DFF">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text>
+      <rect x="0" y="28" width="52" height="3" rx="1.5" fill="#377DFF"/>
+    </g>
+  </g>
+  <g id="chatgpt-codex-comparison" data-pptx-replace-with="table" data-pptx-bounds="64 170 1152 382" data-pptx-fallback-sha256="6a6200cf3ea4c0e13b8b75add5ca5aa3e404e640593c5993d27c73da869d8626">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "x": 64, "y": 170, "width": 1152, "height": 382,
+        "name": "chatgpt-codex-comparison",
+        "strict_grid": true,
+        "header_rows": 1,
+        "column_widths": [1.2, 2.2, 2.6],
+        "row_heights": [0.75, 1, 1, 1, 1],
+        "style": {
+          "font_family": "Microsoft YaHei",
+          "font_size": 20,
+          "header_font_size": 20,
+          "header_fill": "#14213D",
+          "header_text": "#FFFFFF",
+          "body_fill": "#FFFFFF",
+          "body_text": "#1D2939",
+          "band_row": false,
+          "padding": 10,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "padding": 10,
+            "valign": "middle",
+            "borders": {
+              "left": {"style": "none"},
+              "right": {"style": "none"},
+              "top": {"style": "none"},
+              "bottom": {"style": "solid", "color": "#D9E1EC", "width": 1}
+            }
+          }
+        },
+        "columns": [
+          {"text": "比较维度", "align": "l", "bold": true},
+          {"text": "ChatGPT", "align": "l", "bold": true},
+          {"text": "Codex", "align": "l", "bold": true}
+        ],
+        "rows": [
+          [
+            {"text": "工作重心", "fill": "#F6F8FB", "bold": true},
+            {"text": "解释、讨论与内容产出"},
+            {"text": "理解代码库并完成变更", "fill": "#EFF5FF", "bold": true, "color": "#245FD1"}
+          ],
+          [
+            {"text": "主要上下文", "fill": "#F6F8FB", "bold": true},
+            {"text": "问题、文件与通用知识"},
+            {"text": "仓库、编辑器、终端与 Git", "fill": "#EFF5FF", "bold": true, "color": "#245FD1"}
+          ],
+          [
+            {"text": "典型交付", "fill": "#F6F8FB", "bold": true},
+            {"text": "答案、方案与文档"},
+            {"text": "代码变更、测试结果与 diff", "fill": "#EFF5FF", "bold": true, "color": "#245FD1"}
+          ],
+          [
+            {"text": "人的角色", "fill": "#F6F8FB", "bold": true},
+            {"text": "判断内容是否有用"},
+            {"text": "定义目标、审查变更、批准关键操作", "fill": "#EFF5FF", "bold": true, "color": "#245FD1"}
+          ]
+        ]
+      }
+    </metadata>
+    <rect x="64" y="170" width="1152" height="60" rx="14" fill="#14213D"/>
+    <rect x="64" y="230" width="232" height="322" fill="#F6F8FB"/>
+    <rect x="296" y="230" width="420" height="322" fill="#FFFFFF"/>
+    <rect x="716" y="230" width="500" height="322" fill="#EFF5FF"/>
+    <rect x="64" y="170" width="1152" height="382" rx="14" fill="none" stroke="#D9E1EC" stroke-width="1.5"/>
+    <g stroke="#D9E1EC" stroke-width="1">
+      <line x1="64" y1="230" x2="1216" y2="230"/>
+      <line x1="64" y1="310.5" x2="1216" y2="310.5"/>
+      <line x1="64" y1="391" x2="1216" y2="391"/>
+      <line x1="64" y1="471.5" x2="1216" y2="471.5"/>
+    </g>
+    <g font-size="20" font-weight="700" fill="#FFFFFF">
+      <text x="84" y="208">比较维度</text><text x="316" y="208">ChatGPT</text><text x="736" y="208">Codex</text>
+    </g>
+    <g font-size="20" fill="#1D2939">
+      <g font-weight="700">
+        <text x="84" y="278">工作重心</text><text x="84" y="359">主要上下文</text><text x="84" y="439">典型交付</text><text x="84" y="520">人的角色</text>
+      </g>
+      <text x="316" y="278">解释、讨论与内容产出</text>
+      <text x="316" y="359">问题、文件与通用知识</text>
+      <text x="316" y="439">答案、方案与文档</text>
+      <text x="316" y="520">判断内容是否有用</text>
+      <g font-weight="700" fill="#245FD1">
+        <text x="736" y="278">理解代码库并完成变更</text>
+        <text x="736" y="359">仓库、编辑器、终端与 Git</text>
+        <text x="736" y="439">代码变更、测试结果与 diff</text>
+        <text x="736" y="510"><tspan x="736" y="510">定义目标、审查变更、</tspan><tspan x="736" y="536">批准关键操作</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="bottom-note" data-pptx-bounds="64 582 1152 90">
+    <rect x="64" y="582" width="1152" height="90" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <rect x="64" y="582" width="8" height="90" rx="4" fill="#20B8CD"/>
+    <text x="92" y="618" font-size="20" fill="#1D2939"><tspan font-weight="700">共识：</tspan>两者能力有重叠，但 Codex 的默认工作对象是“项目中的变化”。</text>
+    <text x="92" y="651" font-size="16" fill="#667085"><tspan x="92" y="651">官方资料：<a href="https://learn.chatgpt.com/"><tspan fill="#377DFF" text-decoration="underline">OpenAI ChatGPT 与 Codex 能力概览</tspan></a></tspan></text>
+    <text x="1194" y="651" text-anchor="end" font-size="14" fill="#98A2B3">02</text>
+  </g>
+</svg>

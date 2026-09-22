@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-navy" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#263238"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="86" font-size="38" font-weight="700" fill="#263238">用 Git 管理科研实验版本</text>
+    <text x="64" y="126" font-size="21" fill="#607078">把研究假设、代码、配置、验证结果与提交历史连在一起。</text>
+  <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/></g>
+  <g id="experiment-branches" data-pptx-bounds="64 180 764 432">
+    <line x1="96" y1="430" x2="806" y2="430" stroke="#263238" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-navy)"/>
+    <line x1="190" y1="430" x2="250" y2="300" stroke="#456779" stroke-width="4"/>
+    <line x1="250" y1="300" x2="430" y2="300" stroke="#456779" stroke-width="4"/>
+    <line x1="430" y1="300" x2="500" y2="430" stroke="#456779" stroke-width="4"/>
+    <line x1="360" y1="430" x2="430" y2="350" stroke="#648681" stroke-width="4"/>
+    <line x1="430" y1="350" x2="610" y2="350" stroke="#648681" stroke-width="4"/>
+    <line x1="610" y1="350" x2="680" y2="430" stroke="#648681" stroke-width="4"/>
+    <line x1="530" y1="430" x2="600" y2="250" stroke="#6C8DFF" stroke-width="4"/>
+    <line x1="600" y1="250" x2="748" y2="250" stroke="#6C8DFF" stroke-width="4"/>
+    <line x1="748" y1="250" x2="790" y2="430" stroke="#6C8DFF" stroke-width="4"/>
+    <g fill="#FFFFFF" stroke-width="3">
+      <circle cx="96" cy="430" r="18" stroke="#263238"/><circle cx="190" cy="430" r="10" stroke="#263238"/><circle cx="360" cy="430" r="10" stroke="#263238"/><circle cx="530" cy="430" r="10" stroke="#263238"/><circle cx="806" cy="430" r="18" stroke="#648681"/>
+      <circle cx="340" cy="300" r="14" stroke="#456779"/><circle cx="520" cy="350" r="14" stroke="#648681"/><circle cx="680" cy="250" r="14" stroke="#6C8DFF"/>
+    </g>
+    <text x="120" y="470" text-anchor="middle" font-size="17" font-weight="700" fill="#263238">main 基线</text>
+    <text x="340" y="276" text-anchor="middle" font-size="17" font-weight="700" fill="#355F70">实验 A · config-a</text>
+    <text x="520" y="334" text-anchor="middle" font-size="17" font-weight="700" fill="#527A75">实验 B · config-b</text>
+    <text x="680" y="226" text-anchor="middle" font-size="17" font-weight="700" fill="#4C68CC">实验 C · config-c</text>
+    <text x="780" y="470" text-anchor="middle" font-size="17" font-weight="700" fill="#527A75">验证后合并</text>
+    <rect x="64" y="510" width="760" height="102" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+    <text x="88" y="546" font-size="18" font-weight="700" fill="#263238">一个提交应同时指向三类证据</text>
+    <text x="88" y="580" font-size="18" fill="#263238">代码与配置变化　·　环境与数据获取说明　·　指标摘要或结果索引</text>
+  </g>
+  <g id="track-ignore" data-pptx-bounds="856 180 360 432">
+    <rect x="856" y="180" width="360" height="202" rx="4" fill="#F1F5F3"/>
+    <text x="880" y="220" font-size="22" font-weight="700" fill="#527A75">应该追踪</text>
+    <text x="880" y="258" font-size="18" fill="#263238"><tspan x="880" y="258">• 源代码与评估脚本</tspan><tspan x="880" y="292">• 配置与环境依赖</tspan><tspan x="880" y="326">• 数据获取说明</tspan><tspan x="880" y="360">• 图表生成方法</tspan></text>
+    <rect x="856" y="402" width="360" height="210" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+    <text x="880" y="442" font-size="22" font-weight="700" fill="#263238">应该忽略或外部管理</text>
+    <text x="880" y="480" font-size="18" fill="#263238"><tspan x="880" y="480">• 密钥、缓存与临时文件</tspan><tspan x="880" y="514">• 大型原始数据</tspan><tspan x="880" y="548">• 可由脚本重建的输出</tspan></text>
+    <text x="880" y="588" font-size="16" fill="#607078">结果目录保留 README、指标摘要或索引。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 640 1152 32"><text x="64" y="662" font-size="15" fill="#607078">分支不是越多越好：一个研究假设或修复，对应一个短而清楚的分支。</text><text x="1216" y="662" text-anchor="end" font-size="14" fill="#819096">14</text></g>
+</svg>

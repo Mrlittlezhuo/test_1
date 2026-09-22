@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="ending" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">Codex 与 Git：两条算法路线的对照</text>
+    <text x="64" y="126" font-size="20" fill="#607078">Paper2 多反射面估计中的完整搜索与粗糙度引导搜索</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/>
+  </g>
+  <g id="common-baseline" data-pptx-bounds="64 187 1152 82">
+    <text x="64" y="213" font-size="18" fill="#607078">共同起点</text>
+    <text x="64" y="252" font-size="24" font-weight="700" fill="#263238">同一研究问题、稳定基线，以及记录下来的起始提交</text>
+    <line x1="64" y1="268" x2="1216" y2="268" stroke="#D8DEE0" stroke-width="1"/>
+  </g>
+  <g id="parallel-routes" data-pptx-bounds="64 290 1152 210" fill="#263238">
+    <g id="baseline-route">
+      <text x="64" y="328" font-size="26" font-weight="700">路线 A　完整全局动态规划</text>
+      <line x1="64" y1="355" x2="600" y2="355" stroke="#D8DEE0" stroke-width="1"/>
+      <text x="64" y="408" font-size="21"><tspan font-weight="700" fill="#355F70">Codex</tspan>　复核基线算法与实验设置</text>
+      <text x="64" y="458" font-size="21"><tspan font-weight="700" fill="#355F70">Git</tspan>　保存可复跑的代码和配置</text>
+    </g>
+    <line x1="640" y1="300" x2="640" y2="490" stroke="#D8DEE0" stroke-width="1"/>
+    <g id="exploration-route">
+      <text x="680" y="328" font-size="26" font-weight="700">路线 B　粗糙度引导受限搜索</text>
+      <line x1="680" y1="355" x2="1216" y2="355" stroke="#D8DEE0" stroke-width="1"/>
+      <text x="680" y="408" font-size="21"><tspan font-weight="700" fill="#355F70">Codex</tspan>　检查瓶颈并实现受限搜索</text>
+      <text x="680" y="458" font-size="21"><tspan font-weight="700" fill="#355F70">Git</tspan>　用独立分支隔离修改与实验</text>
+    </g>
+  </g>
+  <g id="compare-and-decide" data-pptx-bounds="64 518 1152 99" fill="#263238">
+    <line x1="64" y1="520" x2="1216" y2="520" stroke="#D8DEE0" stroke-width="1"/>
+    <text x="64" y="561" font-size="22" font-weight="700">同条件比较</text>
+    <text x="304" y="561" font-size="21">固定数据、随机种子和指标，比较定位精度与计算量。</text>
+    <text x="64" y="604" font-size="22" font-weight="700">研究者决策</text>
+    <text x="304" y="604" font-size="21">有效再合并；不可靠就记录原因并回到基线。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 632 1152 39">
+    <text x="64" y="657" font-size="16" fill="#607078">聊天讨论保留思路，Git 分支隔离代码，实验记录连接结果。</text>
+    <text x="1216" y="657" text-anchor="end" font-size="14" fill="#819096">16</text>
+  </g>
+</svg>

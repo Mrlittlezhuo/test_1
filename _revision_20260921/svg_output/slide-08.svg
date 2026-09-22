@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#377DFF"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">Skill：把重复任务封装成可复用工作手册</text>
+    <text x="64" y="126" font-size="21" fill="#667085">一个 Skill 说明“何时使用、按什么步骤做、需要哪些脚本和资料”。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#377DFF">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="0" y="28" width="52" height="3" rx="1.5" fill="#377DFF"/></g>
+  </g>
+  <g id="skill-folder" data-pptx-bounds="64 180 420 380">
+    <rect x="64" y="180" width="420" height="380" rx="22" fill="#14213D"/>
+    <text x="92" y="220" font-size="20" font-weight="700" fill="#FFFFFF">项目级 Skill 目录</text>
+    <text x="92" y="252" font-family="Consolas, monospace" font-size="15" fill="#8FA3C3">.agents/skills/experiment-audit/</text>
+    <rect x="88" y="278" width="372" height="246" rx="16" fill="#1E2E4A"/>
+    <g font-family="Consolas, monospace" font-size="18" fill="#E8EEF8">
+      <text x="112" y="320">experiment-audit/</text>
+      <text x="136" y="360" font-weight="700" fill="#7EE0CF">├─ SKILL.md</text>
+      <text x="310" y="360" font-size="14" fill="#7EE0CF">必需</text>
+      <text x="136" y="400">├─ scripts/</text>
+      <text x="310" y="400" font-size="14" fill="#8FA3C3">可选脚本</text>
+      <text x="136" y="440">├─ references/</text>
+      <text x="310" y="440" font-size="14" fill="#8FA3C3">参考资料</text>
+      <text x="136" y="480">└─ assets/</text>
+      <text x="310" y="480" font-size="14" fill="#8FA3C3">模板与素材</text>
+    </g>
+    <text x="92" y="546" font-size="15" fill="#B8C7E0">SKILL.md 至少包含名称、描述与任务步骤。</text>
+  </g>
+  <g id="progressive-loading" data-pptx-bounds="520 180 316 380">
+    <text x="520" y="220" font-size="20" font-weight="700" fill="#14213D">按需加载</text>
+    <text x="520" y="250" font-size="16" fill="#667085">只在匹配时加载完整工作手册</text>
+    <rect x="520" y="282" width="316" height="72" rx="16" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="544" y="312" font-size="17" font-weight="700" fill="#14213D">① 先读取名称与描述</text>
+    <text x="544" y="338" font-size="15" fill="#667085">判断是否适用于当前任务</text>
+    <line x1="678" y1="354" x2="678" y2="384" stroke="#377DFF" stroke-width="3" marker-end="url(#arrow-blue)"/>
+    <rect x="520" y="392" width="316" height="72" rx="16" fill="#EAF2FF" stroke="#BFD2FA"/>
+    <text x="544" y="422" font-size="17" font-weight="700" fill="#245FD1">② 匹配后读取 SKILL.md</text>
+    <text x="544" y="448" font-size="15" fill="#667085">获得步骤、限制与所需资源</text>
+    <line x1="678" y1="464" x2="678" y2="494" stroke="#377DFF" stroke-width="3" marker-end="url(#arrow-blue)"/>
+    <rect x="520" y="502" width="316" height="58" rx="16" fill="#14213D"/>
+    <text x="678" y="538" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">③ 执行并验证任务</text>
+  </g>
+  <g id="trigger-modes" data-pptx-bounds="872 180 344 380">
+    <rect x="872" y="180" width="344" height="380" rx="22" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="898" y="220" font-size="20" font-weight="700" fill="#14213D">两种触发方式</text>
+    <rect x="898" y="250" width="292" height="124" rx="16" fill="#EAF2FF"/>
+    <text x="922" y="284" font-size="18" font-weight="700" fill="#245FD1">显式调用</text>
+    <text x="922" y="318" font-family="Consolas, monospace" font-size="17" fill="#14213D">$experiment-audit</text>
+    <text x="922" y="348" font-size="15" fill="#667085">明确指定这次使用哪个 Skill</text>
+    <rect x="898" y="394" width="292" height="138" rx="16" fill="#EAF8FA"/>
+    <text x="922" y="428" font-size="18" font-weight="700" fill="#168FA0">自动匹配</text>
+    <text x="922" y="460" font-size="16" fill="#1D2939"><tspan x="922" y="460">“复跑实验并对比结果”</tspan><tspan x="922" y="488">描述与 Skill 的用途吻合时，</tspan><tspan x="922" y="516">Codex 可主动选择。</tspan></text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 590 1152 82">
+    <rect x="64" y="590" width="1152" height="54" rx="16" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="88" y="624" font-size="18" fill="#1D2939"><tspan font-weight="700" fill="#245FD1">AGENTS.md 管项目规则；Skill 管一种任务的重复方法。</tspan> 两者可以同时生效。</text>
+    <text x="64" y="670" font-size="14" fill="#667085"><tspan x="64" y="670"><a href="https://learn.chatgpt.com/docs/build-skills"><tspan fill="#377DFF" text-decoration="underline">OpenAI Skills 文档</tspan></a><tspan>　·　</tspan><a href="https://jishuzhan.net/article/2053301309797892098"><tspan fill="#377DFF" text-decoration="underline">参考教程第九节</tspan></a></tspan></text>
+    <text x="1216" y="670" text-anchor="end" font-size="14" fill="#98A2B3">08</text>
+  </g>
+</svg>

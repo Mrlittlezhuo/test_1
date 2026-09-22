@@ -1,0 +1,36 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-CN",
+  "recommend": {
+    "canvas": "ppt169"
+  },
+  "audience": {
+    "value": "课题组导师与研究生；多数人熟悉 ChatGPT 和 VS Code，但对 Codex、Git 以及两者在科研中的协同方式了解程度不同"
+  },
+  "communication_intent": {
+    "value": "先建立 Codex 的正确认知并讲清其在 VS Code 中的基本使用，再补充 Git 的原理与日常操作，最后把两者组合成可追踪、可复现的科研工作流"
+  },
+  "audience_outcome": {
+    "value": "听众能说清 Codex 与 ChatGPT 的区别，理解典型 Codex 项目文件的作用，掌握 VS Code 中的基本操作与 Git 的核心流程，并能把这套方法迁移到自己的科研项目"
+  },
+  "core_message": {
+    "value": "Codex 负责在项目上下文中理解并执行任务，Git 负责记录、比较和恢复每一次变化；两者结合，才能把 AI 辅助编程变成可信、可复现的科研实践"
+  },
+  "delivery_context": {
+    "value": "主要用于约 15–20 分钟、有主讲人的中文课题组现场汇报；次要用于会后独立浏览和新人上手"
+  },
+  "artifact_afterlife": {
+    "value": "作为课题组内部培训、会后复习和科研项目协作规范的入门材料长期留存"
+  },
+  "content_divergence": {
+    "value": ""
+  },
+  "template_options": {
+    "schema_version": 1,
+    "phase": "template",
+    "lang": "zh",
+    "explicit_workspace_roots": [],
+    "default_mode": "free_design"
+  }
+}

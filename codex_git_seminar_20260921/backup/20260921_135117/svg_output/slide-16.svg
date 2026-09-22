@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="ending" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">科研项目中的三项基本检查</text>
+    <text x="64" y="126" font-size="20" fill="#607078">一次任务完成后，用下面三项核对结果。</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0"/>
+  </g>
+  <g id="checks" data-pptx-bounds="64 204 1152 360">
+    <text x="64" y="252" font-size="34" fill="#607078">01</text>
+    <text x="170" y="252" font-size="28" font-weight="700" fill="#263238">任务边界</text>
+    <text x="500" y="252" font-size="21" fill="#263238">目标、修改范围与完成标准是否清楚？</text>
+    <line x1="64" y1="286" x2="1216" y2="286" stroke="#D8DEE0"/>
+    <text x="64" y="369" font-size="34" fill="#607078">02</text>
+    <text x="170" y="369" font-size="28" font-weight="700" fill="#263238">验证证据</text>
+    <text x="500" y="369" font-size="21" fill="#263238">是否检查 diff、运行测试并核对实验结果？</text>
+    <line x1="64" y1="403" x2="1216" y2="403" stroke="#D8DEE0"/>
+    <text x="64" y="486" font-size="34" fill="#607078">03</text>
+    <text x="170" y="486" font-size="28" font-weight="700" fill="#263238">版本记录</text>
+    <text x="500" y="486" font-size="21" fill="#263238">是否只提交任务文件，并记录提交号？</text>
+    <line x1="64" y1="520" x2="1216" y2="520" stroke="#D8DEE0"/>
+  </g>
+  <g id="next-step" data-pptx-bounds="64 580 1152 86">
+    <text x="64" y="610" font-size="18" font-weight="700" fill="#263238">开始练习</text>
+    <text x="64" y="644" font-size="19" fill="#607078">选一个已有科研脚本，完成一次小修改，核对结果后用 Git 留下检查点。</text>
+    <text x="1216" y="644" text-anchor="end" font-size="14" fill="#819096">16</text>
+  </g>
+</svg>

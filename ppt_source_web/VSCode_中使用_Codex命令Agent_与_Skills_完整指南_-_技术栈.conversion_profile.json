@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "web_to_md.py",
+  "conversion_type": "web",
+  "source": {
+    "path": "https://jishuzhan.net/article/2053301309797892098",
+    "name": "https://jishuzhan.net/article/2053301309797892098",
+    "suffix": "",
+    "kind": "url",
+    "exists": false,
+    "size_bytes": null
+  },
+  "outputs": {
+    "markdown": "VSCode_中使用_Codex命令Agent_与_Skills_完整指南_-_技术栈.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 1293,
+    "char_count": 16509,
+    "heading_count": 79,
+    "table_count": 3,
+    "image_ref_count": 0,
+    "link_count": 21
+  },
+  "warnings": []
+}

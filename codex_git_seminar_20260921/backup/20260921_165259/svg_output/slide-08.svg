@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 38 1152 120">
+    <text x="64" y="88" font-size="38" font-weight="700" fill="#263238">Skill 的结构与调用方式</text>
+    <text x="64" y="126" font-size="20" fill="#607078">Skill 为一类任务保存步骤说明，必要时附带脚本或参考资料。</text>
+    <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0"/>
+  </g>
+  <g id="directory" data-pptx-bounds="64 188 500 398">
+    <text x="64" y="220" font-size="22" font-weight="700" fill="#263238">项目中的目录</text>
+    <text x="64" y="254" font-family="Consolas, monospace" font-size="17" fill="#607078">.agents/skills/experiment-audit/</text>
+    <line x1="64" y1="278" x2="564" y2="278" stroke="#D8DEE0"/>
+    <g font-family="Consolas, monospace" font-size="21" fill="#263238">
+      <text x="88" y="334">experiment-audit/</text>
+      <text x="115" y="378">├─ SKILL.md</text>
+      <text x="115" y="422">├─ scripts/</text>
+      <text x="115" y="466">├─ references/</text>
+      <text x="115" y="510">└─ assets/</text>
+    </g>
+    <text x="88" y="555" font-size="17" fill="#607078">SKILL.md 是必需文件，其余内容按需添加。</text>
+  </g>
+  <g id="loading" data-pptx-bounds="634 188 582 268">
+    <text x="634" y="220" font-size="22" font-weight="700" fill="#263238">Codex 怎样使用</text>
+    <line x1="634" y1="246" x2="1216" y2="246" stroke="#D8DEE0"/>
+    <text x="634" y="289" font-size="18" fill="#607078">先判断</text>
+    <text x="772" y="289" font-size="19" fill="#263238">读取名称与描述，确认任务是否匹配。</text>
+    <line x1="634" y1="312" x2="1216" y2="312" stroke="#D8DEE0"/>
+    <text x="634" y="355" font-size="18" fill="#607078">再加载</text>
+    <text x="772" y="355" font-size="19" fill="#263238">匹配后读取完整 SKILL.md。</text>
+    <line x1="634" y1="378" x2="1216" y2="378" stroke="#D8DEE0"/>
+    <text x="634" y="421" font-size="18" fill="#607078">最后执行</text>
+    <text x="772" y="421" font-size="19" fill="#263238">按步骤工作，并检查结果。</text>
+  </g>
+  <g id="invocation" data-pptx-bounds="634 480 582 118">
+    <text x="634" y="510" font-size="22" font-weight="700" fill="#263238">调用方式</text>
+    <text x="634" y="550" font-size="18" fill="#263238"><tspan font-weight="700">显式：</tspan><tspan font-family="Consolas, monospace">$experiment-audit</tspan></text>
+    <text x="634" y="586" font-size="18" fill="#263238"><tspan font-weight="700">自动：</tspan>任务描述与 Skill 用途吻合时由 Codex 选择。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 620 1152 64">
+    <line x1="64" y1="620" x2="1216" y2="620" stroke="#D8DEE0"/>
+    <text x="64" y="653" font-size="15" fill="#607078"><tspan x="64" y="653"><a href="https://learn.chatgpt.com/docs/build-skills"><tspan fill="#355F70" text-decoration="underline">OpenAI Skills 文档</tspan></a><tspan>　·　</tspan><a href="https://jishuzhan.net/article/2053301309797892098"><tspan fill="#355F70" text-decoration="underline">参考教程第九节</tspan></a></tspan></text>
+    <text x="1216" y="653" text-anchor="end" font-size="14" fill="#819096">08</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#377DFF"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#20B8CD"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">AGENTS.md 规定“怎么做”，Skills 封装“重复怎么做”</text>
+    <text x="64" y="126" font-size="21" fill="#667085">把稳定规则与可复用流程放进项目，减少口头约定和提示词漂移。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#377DFF">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#98A2B3">RESEARCH</text><rect x="0" y="28" width="52" height="3" rx="1.5" fill="#377DFF"/></g>
+  </g>
+  <g id="agents-rules" data-pptx-bounds="64 184 372 336">
+    <rect x="64" y="184" width="372" height="336" rx="20" fill="#FFFFFF" stroke="#BFD2FA" stroke-width="2"/>
+    <rect x="64" y="184" width="372" height="62" rx="20" fill="#EAF2FF"/>
+    <text x="88" y="224" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#245FD1">AGENTS.md</text>
+    <text x="88" y="282" font-size="21" font-weight="700" fill="#14213D">持续约束：这个项目怎么做</text>
+    <g font-size="18" fill="#1D2939">
+      <circle cx="94" cy="322" r="4" fill="#377DFF"/><text x="110" y="329">测试命令与完成标准</text>
+      <circle cx="94" cy="362" r="4" fill="#377DFF"/><text x="110" y="369">目录约定与提交规则</text>
+      <circle cx="94" cy="402" r="4" fill="#377DFF"/><text x="110" y="409">禁止事项与安全边界</text>
+      <circle cx="94" cy="442" r="4" fill="#377DFF"/><text x="110" y="449">必要的领域背景</text>
+    </g>
+    <text x="88" y="492" font-size="16" fill="#667085"><tspan x="88" y="492">保持短、稳定、能直接执行。</tspan></text>
+  </g>
+  <g id="codex-core" data-pptx-bounds="472 246 336 222">
+    <line x1="436" y1="352" x2="472" y2="352" stroke="#377DFF" stroke-width="4" marker-end="url(#arrow-blue)"/>
+    <line x1="844" y1="352" x2="808" y2="352" stroke="#20B8CD" stroke-width="4" marker-end="url(#arrow-teal)"/>
+    <rect x="472" y="246" width="336" height="222" rx="28" fill="#14213D"/>
+    <circle cx="640" cy="310" r="32" fill="#377DFF"/>
+    <text x="640" y="320" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="640" y="374" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">Codex 执行</text>
+    <text x="640" y="412" text-anchor="middle" font-size="17" fill="#B8C7E0">读取规则 · 匹配流程 · 修改与验证</text>
+  </g>
+  <g id="skill-workflow" data-pptx-bounds="844 184 372 336">
+    <rect x="844" y="184" width="372" height="336" rx="20" fill="#FFFFFF" stroke="#BFE8ED" stroke-width="2"/>
+    <rect x="844" y="184" width="372" height="62" rx="20" fill="#EAF8FA"/>
+    <text x="868" y="224" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#168FA0">Skill</text>
+    <text x="868" y="282" font-size="21" font-weight="700" fill="#14213D">可复用方法：重复任务怎么做</text>
+    <g font-family="Consolas, monospace" font-size="18" fill="#1D2939">
+      <text x="868" y="329">my-skill/</text>
+      <text x="894" y="367" fill="#168FA0">├─ SKILL.md</text>
+      <text x="894" y="405">├─ scripts/</text>
+      <text x="894" y="443">├─ references/</text>
+      <text x="894" y="481">└─ assets/</text>
+    </g>
+  </g>
+  <g id="practice-and-links" data-pptx-bounds="64 552 1152 112">
+    <rect x="64" y="552" width="1152" height="112" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="88" y="588" font-size="19" font-weight="700" fill="#14213D">实践原则</text>
+    <text x="88" y="622" font-size="18" fill="#1D2939">规则解决“每次都必须遵守什么”，技能解决“这类任务反复怎样完成”。</text>
+    <text x="88" y="650" font-size="15" fill="#667085"><tspan x="88" y="650"><a href="https://learn.chatgpt.com/docs/agent-configuration/agents-md"><tspan fill="#377DFF" text-decoration="underline">OpenAI AGENTS.md 文档</tspan></a><tspan>　·　</tspan><a href="https://learn.chatgpt.com/docs/build-skills"><tspan fill="#377DFF" text-decoration="underline">OpenAI Skills 文档</tspan></a></tspan></text>
+    <text x="1194" y="650" text-anchor="end" font-size="14" fill="#98A2B3">05</text>
+  </g>
+</svg>

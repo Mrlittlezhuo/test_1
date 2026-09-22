@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#456779"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#648681"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="86" font-size="38" font-weight="700" fill="#263238">Codex 处理代码任务的基本流程</text>
+    <text x="64" y="128" font-size="22" fill="#607078">一次代码任务通常包括读取项目、修改文件、运行检查和审查差异。</text>
+  <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/></g>
+  <g id="execution-loop" data-pptx-bounds="60 190 824 394">
+    <line x1="106" y1="340" x2="830" y2="340" stroke="#456779" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+    <g font-size="17" text-anchor="middle" fill="#263238">
+      <g><circle cx="108" cy="340" r="30" fill="#456779"/><text x="108" y="347" fill="#FFFFFF" font-size="18" font-weight="700">1</text><text x="108" y="396" font-weight="700">明确目标</text><text x="108" y="422" fill="#607078">范围与标准</text></g>
+      <g><circle cx="228" cy="340" r="30" fill="#FFFFFF" stroke="#456779" stroke-width="3"/><text x="228" y="347" fill="#456779" font-size="18" font-weight="700">2</text><text x="228" y="396" font-weight="700">读取项目</text><text x="228" y="422" fill="#607078">文件与规则</text></g>
+      <g><circle cx="348" cy="340" r="30" fill="#FFFFFF" stroke="#456779" stroke-width="3"/><text x="348" y="347" fill="#456779" font-size="18" font-weight="700">3</text><text x="348" y="396" font-weight="700">拆解计划</text><text x="348" y="422" fill="#607078">步骤与风险</text></g>
+      <g><circle cx="468" cy="340" r="30" fill="#FFFFFF" stroke="#456779" stroke-width="3"/><text x="468" y="347" fill="#456779" font-size="18" font-weight="700">4</text><text x="468" y="396" font-weight="700">修改文件</text><text x="468" y="422" fill="#607078">最小变更</text></g>
+      <g><circle cx="588" cy="340" r="30" fill="#FFFFFF" stroke="#456779" stroke-width="3"/><text x="588" y="347" fill="#456779" font-size="18" font-weight="700">5</text><text x="588" y="396" font-weight="700">运行检查</text><text x="588" y="422" fill="#607078">测试与脚本</text></g>
+      <g><circle cx="708" cy="340" r="30" fill="#FFFFFF" stroke="#456779" stroke-width="3"/><text x="708" y="347" fill="#456779" font-size="18" font-weight="700">6</text><text x="708" y="396" font-weight="700">审查 diff</text><text x="708" y="422" fill="#607078">核对范围</text></g>
+      <g><circle cx="828" cy="340" r="30" fill="#648681"/><text x="828" y="347" fill="#FFFFFF" font-size="18" font-weight="700">7</text><text x="828" y="396" font-weight="700">汇报结果</text><text x="828" y="422" fill="#607078">证据与后续</text></g>
+    </g>
+    <line x1="588" y1="292" x2="588" y2="262" stroke="#648681" stroke-width="2"/>
+    <line x1="588" y1="262" x2="468" y2="262" stroke="#648681" stroke-width="2"/>
+    <line x1="468" y1="262" x2="468" y2="292" stroke="#648681" stroke-width="2" marker-end="url(#arrow-teal)"/>
+    <text x="528" y="250" text-anchor="middle" font-size="15" fill="#648681">验证失败就返回修改</text>
+    <rect x="64" y="500" width="820" height="84" rx="4" fill="#F2F5F5"/>
+    <text x="88" y="535" font-size="18" font-weight="700" fill="#355F70">人的职责贯穿始终</text>
+    <text x="88" y="565" font-size="18" fill="#263238">在入口确认范围，在出口核对风险、证据与完成标准。</text>
+  </g>
+  <g id="editor-status" data-pptx-bounds="920 190 296 394">
+    <rect x="920" y="190" width="296" height="394" rx="4" fill="#263238"/>
+    <rect x="920" y="190" width="296" height="44" rx="4" fill="#34434C"/>
+    
+    <text x="1004" y="218" font-size="14" fill="#CCD6E8">task / verify</text>
+    <text x="946" y="274" font-family="Consolas, monospace" font-size="16" fill="#9FB5D9">$ run tests</text>
+    <text x="946" y="312" font-family="Consolas, monospace" font-size="18" fill="#A9C9BB">✓ 18 passed</text>
+    <line x1="946" y1="338" x2="1190" y2="338" stroke="#53626B"/>
+    <text x="946" y="380" font-size="16" fill="#9FB5D9">CHANGES</text>
+    <text x="946" y="416" font-family="Consolas, monospace" font-size="17" fill="#FFFFFF">M src/model.py</text>
+    <text x="946" y="448" font-family="Consolas, monospace" font-size="17" fill="#FFFFFF">A tests/test_model.py</text>
+    <rect x="946" y="490" width="238" height="56" rx="4" fill="#456779"/>
+    <text x="1065" y="525" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">diff ready to review</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 626 1152 42"><line x1="64" y1="626" x2="1216" y2="626" stroke="#D8DEE0"/><text x="64" y="655" font-size="16" fill="#607078">关键判断：不是“生成了没有”，而是“是否验证并可解释”。</text><text x="1216" y="655" text-anchor="end" font-size="14" fill="#819096">03</text></g>
+</svg>

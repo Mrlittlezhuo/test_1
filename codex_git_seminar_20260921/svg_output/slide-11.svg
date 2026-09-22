@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="86" font-size="38" font-weight="700" fill="#263238">Git 的分布式版本管理</text>
+    <text x="64" y="128" font-size="21" fill="#607078">Git 管理版本与历史；GitHub、GitLab 等平台负责远程托管与协作。</text>
+  <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/></g>
+  <g id="git-definition" data-pptx-bounds="64 188 476 416">
+    <text x="64" y="232" font-size="18" font-weight="700" fill="#648681">DISTRIBUTED VERSION CONTROL</text>
+    <text x="64" y="286" font-size="32" font-weight="700" fill="#263238"><tspan x="64" y="286">每个本地仓库，</tspan><tspan x="64" y="328">都拥有完整历史。</tspan></text>
+    <rect x="64" y="362" width="476" height="94" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+    <text x="88" y="397" font-size="19" font-weight="700" fill="#263238">Git ≠ GitHub</text>
+    <text x="88" y="430" font-size="18" fill="#263238">前者是版本控制工具，后者是远程协作平台。</text>
+    <rect x="64" y="478" width="476" height="126" rx="4" fill="#F1F5F3"/>
+    <text x="88" y="516" font-size="19" font-weight="700" fill="#527A75">离线也能提交与查看历史</text>
+    <text x="88" y="550" font-size="18" fill="#263238"><tspan x="88" y="550">一次提交保存项目状态快照及其父子关系，</tspan><tspan x="88" y="582">不是随手复制一个新文件夹。</tspan></text>
+  </g>
+  <g id="distributed-diagram" data-pptx-bounds="584 188 632 416">
+    <rect x="584" y="188" width="632" height="416" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+    <image href="../images/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg" x="602" y="214" width="596" height="336" preserveAspectRatio="xMidYMid meet"/>
+    <text x="900" y="582" text-anchor="middle" font-size="16" fill="#607078">集中式依赖中心节点；分布式 Git 的每个克隆都包含历史。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 628 1152 44"><text x="64" y="654" font-size="15" fill="#607078"><tspan x="64" y="654">参考：<a href="https://www.runoob.com/git/git-tutorial.html"><tspan fill="#456779" text-decoration="underline">Git 教程</tspan></a></tspan></text><text x="1216" y="654" text-anchor="end" font-size="14" fill="#819096">11</text></g>
+</svg>

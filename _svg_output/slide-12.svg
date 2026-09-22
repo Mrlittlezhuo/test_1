@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F8FB"/>
+  <g id="header" data-pptx-bounds="64 36 1152 116">
+    <text x="64" y="86" font-size="44" font-weight="700" fill="#14213D">三条规则，把 AI 辅助编程变成可复现科研</text>
+    <text x="64" y="126" font-size="21" fill="#667085">每次任务结束，都留下可运行的变化、验证证据和 Git 检查点。</text>
+    <g transform="translate(1016 48)" font-size="14" font-weight="700"><text x="0" y="18" fill="#98A2B3">CODEX</text><text x="72" y="18" fill="#98A2B3">GIT</text><text x="116" y="18" fill="#377DFF">RESEARCH</text><rect x="116" y="28" width="74" height="3" rx="1.5" fill="#377DFF"/></g>
+  </g>
+  <g id="three-rules" data-pptx-bounds="64 176 760 432">
+    <line x1="118" y1="214" x2="118" y2="554" stroke="#D9E1EC" stroke-width="4"/>
+    <g>
+      <circle cx="118" cy="236" r="38" fill="#377DFF"/><text x="118" y="248" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">01</text>
+      <text x="180" y="224" font-size="30" font-weight="700" fill="#14213D">任务要小</text>
+      <text x="180" y="258" font-size="18" fill="#667085">说明目标、范围、相关文件与完成标准。</text>
+      <line x1="180" y1="286" x2="800" y2="286" stroke="#D9E1EC"/>
+      <circle cx="118" cy="370" r="38" fill="#20B8CD"/><text x="118" y="382" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">02</text>
+      <text x="180" y="358" font-size="30" font-weight="700" fill="#14213D">结果要验</text>
+      <text x="180" y="392" font-size="18" fill="#667085">看 diff、跑测试、核对数据与图表；生成不等于正确。</text>
+      <line x1="180" y1="420" x2="800" y2="420" stroke="#D9E1EC"/>
+      <circle cx="118" cy="504" r="38" fill="#14213D"/><text x="118" y="516" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">03</text>
+      <text x="180" y="492" font-size="30" font-weight="700" fill="#14213D">历史要清</text>
+      <text x="180" y="526" font-size="18" fill="#667085">只提交当前任务文件，说明原因，推送并记录提交号。</text>
+    </g>
+    <rect x="64" y="568" width="760" height="40" rx="12" fill="#EAF2FF"/>
+    <text x="84" y="594" font-size="16" font-weight="700" fill="#245FD1">小任务 + 可验证结果 + 清楚历史 = 可复现的日常习惯</text>
+  </g>
+  <g id="final-checklist" data-pptx-bounds="864 176 352 432">
+    <rect x="864" y="176" width="352" height="432" rx="24" fill="#14213D"/>
+    <text x="892" y="220" font-size="18" font-weight="700" fill="#7EB0FF">TASK DONE?</text>
+    <text x="892" y="262" font-size="27" font-weight="700" fill="#FFFFFF">结束前检查三样东西</text>
+    <g font-size="19" fill="#FFFFFF">
+      <circle cx="906" cy="318" r="14" fill="#20B8CD"/><text x="906" y="324" text-anchor="middle" font-size="16" font-weight="700">✓</text><text x="934" y="324">可运行的变化</text>
+      <circle cx="906" cy="370" r="14" fill="#20B8CD"/><text x="906" y="376" text-anchor="middle" font-size="16" font-weight="700">✓</text><text x="934" y="376">验证证据</text>
+      <circle cx="906" cy="422" r="14" fill="#20B8CD"/><text x="906" y="428" text-anchor="middle" font-size="16" font-weight="700">✓</text><text x="934" y="428">Git 检查点</text>
+    </g>
+    <line x1="892" y1="464" x2="1188" y2="464" stroke="#334768"/>
+    <text x="892" y="500" font-size="17" font-weight="700" fill="#7EE0CF">立即实践</text>
+    <text x="892" y="532" font-size="17" fill="#FFFFFF"><tspan x="892" y="532">选择一个现有科研脚本，</tspan><tspan x="892" y="560">让 Codex 做一个可验证的小改动，</tspan><tspan x="892" y="588">再用 Git 完成检查点。</tspan></text>
+  </g>
+  <g id="closing" data-pptx-bounds="64 636 1152 42"><text x="64" y="664" font-size="18" font-weight="700" fill="#14213D">可复现不是最后补文档，而是每次任务结束时留下证据。</text><text x="1216" y="664" text-anchor="end" font-size="14" fill="#98A2B3">12</text></g>
+</svg>

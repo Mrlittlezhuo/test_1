@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs><marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#456779"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#648681"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 32 1152 130">
+    <text x="64" y="86" font-size="38" font-weight="700" fill="#263238">Git 的四个工作位置</text>
+    <text x="64" y="126" font-size="21" fill="#607078">工作区、暂存区、本地仓库和远程仓库承担不同的工作。</text>
+  <line x1="64" y1="154" x2="1216" y2="154" stroke="#D8DEE0" stroke-width="1"/></g>
+  <g id="git-four-zones" data-pptx-bounds="64 186 1152 372">
+    <line x1="286" y1="330" x2="374" y2="330" stroke="#456779" stroke-width="4" marker-end="url(#arrow-blue)"/>
+    <line x1="596" y1="330" x2="684" y2="330" stroke="#456779" stroke-width="4" marker-end="url(#arrow-blue)"/>
+    <line x1="906" y1="330" x2="994" y2="330" stroke="#648681" stroke-width="4" marker-end="url(#arrow-teal)"/>
+    <line x1="994" y1="398" x2="906" y2="398" stroke="#648681" stroke-width="3" marker-end="url(#arrow-teal)"/>
+    <text x="330" y="302" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#355F70">git add</text>
+    <text x="640" y="302" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#355F70">git commit</text>
+    <text x="950" y="302" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#527A75">git push</text>
+    <text x="950" y="432" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#527A75">git pull</text>
+    <g>
+      <rect x="64" y="256" width="222" height="190" rx="4" fill="#FFFFFF" stroke="#D7DFE0" stroke-width="2"/>
+      <text x="88" y="298" font-size="17" font-weight="700" fill="#456779">01</text><text x="88" y="336" font-size="25" font-weight="700" fill="#263238">工作区</text><text x="88" y="366" font-size="17" fill="#607078">Working Tree</text><text x="88" y="412" font-size="18" fill="#263238">正在编辑的文件</text>
+      <rect x="374" y="256" width="222" height="190" rx="4" fill="#FFFFFF" stroke="#D7DFE0" stroke-width="2"/>
+      <text x="398" y="298" font-size="17" font-weight="700" fill="#456779">02</text><text x="398" y="336" font-size="25" font-weight="700" fill="#263238">暂存区</text><text x="398" y="366" font-size="17" fill="#607078">Staging Area</text><text x="398" y="402" font-size="18" fill="#263238"><tspan x="398" y="402">本次提交准备</tspan><tspan x="398" y="428">包含的内容</tspan></text>
+      <rect x="684" y="256" width="222" height="190" rx="4" fill="#FFFFFF" stroke="#D7DFE0" stroke-width="2"/>
+      <text x="708" y="298" font-size="17" font-weight="700" fill="#648681">03</text><text x="708" y="336" font-size="25" font-weight="700" fill="#263238">本地仓库</text><text x="708" y="366" font-size="17" fill="#607078">Local Repository</text><text x="708" y="402" font-size="18" fill="#263238"><tspan x="708" y="402">已固化、可恢复的</tspan><tspan x="708" y="428">提交历史</tspan></text>
+      <rect x="994" y="256" width="222" height="190" rx="4" fill="#263238"/>
+      <text x="1018" y="298" font-size="17" font-weight="700" fill="#A9C9BB">04</text><text x="1018" y="336" font-size="25" font-weight="700" fill="#FFFFFF">远程仓库</text><text x="1018" y="366" font-size="17" fill="#C3CDD2">Remote Repository</text><text x="1018" y="402" font-size="18" fill="#FFFFFF"><tspan x="1018" y="402">团队同步与远程</tspan><tspan x="1018" y="428">备份协作</tspan></text>
+    </g>
+    <rect x="64" y="486" width="1152" height="72" rx="4" fill="#FFFFFF" stroke="#D8DEE0"/>
+    <text x="88" y="516" font-size="17" font-weight="700" fill="#263238">观察状态</text>
+    <text x="88" y="544" font-size="17" fill="#263238"><tspan font-family="Consolas, monospace" fill="#355F70">git status</tspan> 看位置　·　<tspan font-family="Consolas, monospace" fill="#355F70">git diff</tspan> 看差异　·　<tspan font-family="Consolas, monospace" fill="#355F70">git log</tspan> 看历史</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 592 1152 88"><text x="88" y="627" font-size="18" fill="#263238"><tspan font-weight="700" fill="#355F70">暂存区的价值：</tspan>先选择“这次要提交什么”，再固化历史。</text><text x="1216" y="670" text-anchor="end" font-size="14" fill="#819096">12</text></g>
+</svg>

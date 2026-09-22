@@ -1,0 +1,174 @@
+{
+  "stage": "stage2",
+  "lang": "zh",
+  "selection_sha256": "c4275725349175439cba08b04d64b6d9d9b0f0bddd1e5f962e93a1738d95351c",
+  "recommend": {
+    "delivery_purpose": "balanced",
+    "mode": "custom",
+    "visual_style": "custom",
+    "image_strategy": "custom",
+    "image_usage": ["provided"],
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "12"
+  },
+  "image_notes": {
+    "value": "优先使用已导入的浅色编辑器叙事视觉稿和 VS Code/Codex 教程截图；截图保持完整、可辨认，不用装饰性照片。Git 原理与科研协同部分主要使用可编辑的原生图形和流程关系表达。"
+  },
+  "proactive_speaker_notes": {
+    "value": true
+  },
+  "proactive_custom_animations": {
+    "value": false
+  },
+  "proactive_narration_audio": {
+    "value": false
+  },
+  "refine_spec": {
+    "value": false
+  },
+  "design_spec_depth": {
+    "value": "brief"
+  },
+  "design_directions": {
+    "selected": 0,
+    "candidates": [
+      {
+        "id": "editor-workbench",
+        "name": "编辑器叙事工作台",
+        "note": "延续你选中的第 3 种方向：把 VS Code、Codex 与 Git 看成同一张科研工作台，视觉真实、清楚，适合现场讲解与会后复习。",
+        "mode": "custom",
+        "mode_behavior": "以逐步教学为主线，并用“从会聊天到会执行，再到可复现”的转折推进：先回答 Codex 是什么，接着示范项目结构和 VS Code 操作，再引入 Git，最后在科研闭环中完成收束。每页只承担一个清晰学习动作，章节入口通过工作状态变化衔接。",
+        "mode_references": ["instructional", "narrative"],
+        "visual_style": "custom",
+        "visual_style_behavior": "以右侧编辑器或终端界面为持续视觉锚点，左侧使用编辑式大标题、细规则与少量圆角说明块；页面保持浅色大留白，步骤、路径和关键命令用蓝色标注。融合出版式层级与友好圆角容器，但弱化卡片堆叠，让同一张“研究工作台”贯穿全篇。",
+        "visual_style_references": ["editorial", "soft-rounded"],
+        "icons": "tabler-outline",
+        "color": {
+          "name": "清爽编辑器蓝",
+          "palette": {
+            "background": "#F6F8FB",
+            "secondary_bg": "#FFFFFF",
+            "primary": "#14213D",
+            "accent": "#377DFF",
+            "secondary_accent": "#20B8CD",
+            "body_text": "#1D2939"
+          }
+        },
+        "typography": {
+          "name": "微软雅黑 + Arial",
+          "heading": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "界面化证据图",
+          "rendering": "custom",
+          "visual": "真实 VS Code 截图与简化的编辑器界面元素组合，保留清晰的窗口结构、焦点区域和操作路径",
+          "mood": "像一份经过编辑设计的产品操作手册，可信、克制，又有连续的使用场景",
+          "behavior": "以数字仪表盘式的清晰界面层级建立结构，用出版式构图控制留白、分栏与焦点。线条保持锐利，材质以干净屏幕表面为主，仅在窗口层级上使用很浅的阴影；整体情绪专业、易读，像真实科研工作区的精炼记录。",
+          "references": ["digital-dashboard", "editorial"]
+        }
+      },
+      {
+        "id": "research-field-guide",
+        "name": "科研刊物手册",
+        "note": "更像一份可长期留存的科研方法手册，强调定义、对照、注释与来源，信息密度略高，适合会后查阅。",
+        "mode": "custom",
+        "mode_behavior": "按概念、结构、操作与应用四个层级逐步教学，同时保持参考手册式的完整覆盖与平行组织。标题清楚说明主题，定义、命令、注意事项和科研例子均保持可扫描、可回查。",
+        "mode_references": ["instructional", "briefing"],
+        "visual_style": "custom",
+        "visual_style_behavior": "采用杂志式分栏、细规则、页边注和来源行组织信息，关键比较与命令以小型数据刊物模块嵌入页面。纸张感浅底配合克制强调色，标题与正文形成衬线和无衬线对比，整体像一本现代科研方法刊物。",
+        "visual_style_references": ["editorial", "data-journalism"],
+        "icons": "tabler-outline",
+        "color": {
+          "name": "纸张海军蓝",
+          "palette": {
+            "background": "#F7F4ED",
+            "secondary_bg": "#FFFFFF",
+            "primary": "#19324D",
+            "accent": "#2E7D63",
+            "secondary_accent": "#E08A3E",
+            "body_text": "#22303C"
+          }
+        },
+        "typography": {
+          "name": "宋体 + 微软雅黑",
+          "heading": {
+            "primary": "SimSun",
+            "english": "Cambria",
+            "css": "serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body_size": 22
+        },
+        "image_strategy": {
+          "name": "刊物式说明图",
+          "rendering": "custom",
+          "visual": "截图、简化信息图与手绘式重点批注共同构成证据页面，图像像刊物插图一样服从分栏",
+          "mood": "像一本严谨但不僵硬的研究方法杂志，适合慢读、标记和反复查阅",
+          "behavior": "以出版式平面层级和细规则作为骨架，在局部加入克制的墨线批注来提示操作重点。材质保持平整，允许非常轻的纸张质感但不使用明显阴影；整体情绪理性、耐读，强调内容来源和方法步骤。",
+          "references": ["editorial", "ink-notes"]
+        }
+      },
+      {
+        "id": "engineering-blueprint",
+        "name": "工程技术蓝图",
+        "note": "把 Codex、Git 和科研流程表达为一套工程系统，深色技术感更强，适合突出机制、状态流转和可靠性。",
+        "mode": "custom",
+        "mode_behavior": "每一章先给出一个明确判断，再用分解后的机制和操作步骤支撑：Codex 是执行层，Git 是追踪层，科研闭环是系统结果。教学顺序保留，但页面标题更偏结论，突出为什么这样做以及不这样做的风险。",
+        "mode_references": ["pyramid", "instructional"],
+        "visual_style": "custom",
+        "visual_style_behavior": "使用深色工程图纸背景、单线框架、网格和技术标注表达项目结构与状态流转，重点路径由高亮色贯穿。构图遵循严格网格和大块留白，少量大型几何区承担章节节奏，整体像系统设计图而不是科技宣传页。",
+        "visual_style_references": ["blueprint", "swiss-minimal"],
+        "icons": "tabler-outline",
+        "color": {
+          "name": "深海工程蓝",
+          "palette": {
+            "background": "#0B1220",
+            "secondary_bg": "#121E2F",
+            "primary": "#4BA3FF",
+            "accent": "#5EEAD4",
+            "secondary_accent": "#FFC857",
+            "body_text": "#E8EEF7"
+          }
+        },
+        "typography": {
+          "name": "黑体 + 微软雅黑",
+          "heading": {
+            "primary": "SimHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "系统蓝图证据图",
+          "rendering": "custom",
+          "visual": "编辑器截图与项目结构图被处理成工程图纸中的部件、路径和放大细节",
+          "mood": "像一张可讲解的软件系统设计图，精确、克制并强调可靠性",
+          "behavior": "以蓝图式精确线框、低透明网格和直角连接建立技术秩序，再用瑞士网格的严格留白控制复杂度。所有层级保持平面、无装饰性材质，仅用高亮路径制造焦点；整体情绪冷静、工程化、可验证。",
+          "references": ["blueprint", "minimalist-swiss"]
+        }
+      }
+    ]
+  }
+}

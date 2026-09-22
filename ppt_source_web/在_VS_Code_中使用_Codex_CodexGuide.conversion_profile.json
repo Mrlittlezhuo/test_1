@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "web_to_md.py",
+  "conversion_type": "web",
+  "source": {
+    "path": "https://codexguide.ai/start/13-ide-vscode.html",
+    "name": "https://codexguide.ai/start/13-ide-vscode.html",
+    "suffix": "",
+    "kind": "url",
+    "exists": false,
+    "size_bytes": null
+  },
+  "outputs": {
+    "markdown": "在_VS_Code_中使用_Codex_CodexGuide.md",
+    "asset_dir": "在_VS_Code_中使用_Codex_CodexGuide_files",
+    "image_manifest": "在_VS_Code_中使用_Codex_CodexGuide_files/image_manifest.json",
+    "image_count": 4
+  },
+  "markdown": {
+    "line_count": 67,
+    "char_count": 1870,
+    "heading_count": 8,
+    "table_count": 1,
+    "image_ref_count": 4,
+    "link_count": 10
+  },
+  "warnings": []
+}
